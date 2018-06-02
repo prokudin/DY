@@ -10,7 +10,7 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2334497,      45068]
+NotebookDataLength[   2334496,      45068]
 NotebookOptionsPosition[   2312024,      44344]
 NotebookOutlinePosition[   2312836,      44373]
 CellTagsIndexPosition[   2312698,      44367]
@@ -45007,7 +45007,7 @@ Cell[2134611, 40995, 405, 5, 136, "Output"]
 Cell[CellGroupData[{
 Cell[2135089, 41008, 1166, 23, 85, "Subchapter"],
 Cell[CellGroupData[{
-Cell[2136280, 41035, 771, 16, 112, "Section"],
+Cell[2136280, 41035, 771, 16, 90, "Section"],
 Cell[CellGroupData[{
 Cell[2137076, 41055, 3152, 67, 247, "Input"],
 Cell[2140231, 41124, 992, 14, 77, "Print"]
