@@ -47243,7 +47243,7 @@ Cell[BoxData[
  CellLabel->
   "Out[1138]=",ExpressionUUID->"455a6e43-d3b3-4495-87f3-60bde661b21e"]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -52799,7 +52799,7 @@ Cell[BoxData["\<\"../tex/figs/AUTsin2phi_m_phiS_qT.pdf\"\>"], "Output",
   "Out[804]=",ExpressionUUID->"cb2d919e-e6a9-48fd-ae80-fd897b0f156f"]
 }, Open  ]]
 }, Closed]]
-}, Open  ]]
+}, Closed]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -79816,9 +79816,9 @@ Cell[2477883, 47174, 1467, 27, 109, "Input",ExpressionUUID->"9bd650b3-f5bb-4226-
 Cell[2479353, 47203, 1192, 19, 55, "Print",ExpressionUUID->"969b0750-4b6f-4004-a3c0-273fb71e5de8"],
 Cell[2480548, 47224, 796, 19, 89, "Output",ExpressionUUID->"455a6e43-d3b3-4495-87f3-60bde661b21e"]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
-Cell[2481393, 47249, 1180, 27, 91, "Section",ExpressionUUID->"48f57071-2f81-4380-8917-a4bb8efde5dd"],
+Cell[2481393, 47249, 1180, 27, 72, "Section",ExpressionUUID->"48f57071-2f81-4380-8917-a4bb8efde5dd"],
 Cell[2482576, 47278, 4344, 93, 418, "Input",ExpressionUUID->"ee237bf8-34ed-4910-b752-2a9d4597ed9f"],
 Cell[CellGroupData[{
 Cell[2486945, 47375, 1014, 21, 78, "Input",ExpressionUUID->"e3aa1184-c1de-47e9-8b70-0dab81222cb4"],
@@ -79901,7 +79901,7 @@ Cell[2740021, 52771, 873, 14, 123, "Input",ExpressionUUID->"0cf2d557-be26-42fe-a
 Cell[2740897, 52787, 744, 11, 70, "Output",ExpressionUUID->"cb2d919e-e6a9-48fd-ae80-fd897b0f156f"]
 }, Open  ]]
 }, Closed]]
-}, Open  ]]
+}, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[2741714, 52806, 1392, 28, 85, "Subchapter",ExpressionUUID->"1b39ac03-8f13-413d-bd40-d3c6e69ca8c1"],
