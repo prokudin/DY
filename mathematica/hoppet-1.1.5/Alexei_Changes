@@ -1,0 +1,155 @@
+Changes of HOPPET to include evolution of transversity:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+./src/spliting_functions.f90
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+line 32:
+! 03/20/2014 ALEXEI PROKUDIN ADDED SPLITTING FUNCTIONS FOR TRANSVERSITY
+  public :: sf_trans_Pgg, sf_trans_Pqq, sf_trans_Pgq, sf_trans_Pqg
+
+
+line 52:
+  !----------------------------------------------------------------------
+  ! 03/20/2014 ALEXEI PROKUDIN ADDED SPLITTING FUNCTIONS FOR TRANSVERSITY
+  function sf_trans_Pgg(y) result(res)
+    real(dp), intent(in) :: y
+    real(dp)             :: res
+    real(dp)             :: x
+    
+    res = zero
+
+   end function sf_trans_Pgg
+
+  !----------------------------------------------------------------------
+  ! 03/20/2014 ALEXEI PROKUDIN ADDED SPLITTING FUNCTIONS FOR TRANSVERSITY
+  function sf_trans_Pgq(y) result(res)
+    real(dp), intent(in) :: y
+    real(dp)             :: res
+    real(dp)             :: x
+    
+    res = zero
+
+   end function sf_trans_Pgq
+
+  !----------------------------------------------------------------------
+  ! 03/20/2014 ALEXEI PROKUDIN ADDED SPLITTING FUNCTIONS FOR TRANSVERSITY
+  function sf_trans_Pqg(y) result(res)
+    real(dp), intent(in) :: y
+    real(dp)             :: res
+    real(dp)             :: x
+    
+    res = zero
+
+   end function sf_trans_Pqg
+
+  
+
+  !----------------------------------------------------------------------
+  ! 03/20/2014 ALEXEI PROKUDIN ADDED SPLITTING FUNCTIONS FOR TRANSVERSITY
+  function sf_trans_Pqq(y) result(res)
+    real(dp), intent(in) :: y
+    real(dp)             :: res
+    real(dp)             :: x
+    x = exp(-y)
+    res = zero
+
+    select case(cc_piece)
+    case(cc_REAL,cc_REALVIRT)
+       res = cf*(two*x/(one-x)) 
+    end select
+    select case(cc_piece)
+    case(cc_VIRT,cc_REALVIRT)
+       res = res - cf*two*one/(one-x)
+    case(cc_DELTA)
+       res = cf*three*half
+    end select
+
+    if (cc_piece /= cc_DELTA) res = res * x
+  end function sf_trans_Pqq
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+./src/dglap_choices.f90
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+line 32:
+
+!!--------------------------------------------------------------------
+!! Alexei Prokudin 03/20/2014 Transversity
+!!--------------------------------------------------------------------
+  integer, parameter, public :: factscheme_TransMSbar = 5
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+./src/dglap_holders.f90
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+line 286
+
+!!--------------------------------------------------------------------
+!! Alexei Prokudin 03/20/2014 Transversity
+!!--------------------------------------------------------------------
+       case (factscheme_TransMSbar)
+          write(0,*) "SETTING UP TRANSVERSITY EVOLUTION"
+          call InitSplitMatTransLO (grid, dh%P_LO)
+          if (dh%nloop >= 2) call wae_error('InitDglapHolder',&
+               &'nloop >= 2 not supported for transversity case')
+          if (dh%nloop >= 3) call wae_error('InitDglapHolder',&
+               &'nloop >= 3 not supported for transversity case')
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+./src/dglap_objects.f90
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+line 98
+
+! 03/20/2014 Alexei Prokudin transversity
+  public :: InitSplitMatTransLO
+
+line 181
+
+  ! 03/20/2014 ALEXEI PROKUDIN
+  !======================================================================
+  !! Initialise a LO transversity splitting matrix, with the nf value that
+  !! is current from the qcd module. 
+  subroutine InitSplitMatTransLO(grid, P)
+    use qcd
+    type(grid_def),  intent(in)    :: grid
+    type(split_mat), intent(inout) :: P
+
+    !-- info to describe the splitting function
+    !P%loops  = 1
+    P%nf_int = nf_int
+
+    call cobj_InitSplitLinks(P)
+
+    call InitGridConv(grid, P%gg, sf_trans_Pgg)
+    call InitGridConv(grid, P%qq, sf_trans_Pqq)
+    call InitGridConv(grid, P%gq, sf_trans_Pgq)
+    call InitGridConv(grid, P%qg, sf_trans_Pqg)
+
+    !-- now fix up pieces so that they can be directly used as a matrix
+    call Multiply(P%qg, 2*nf)
+
+    !-- PqqV +- PqqbarV
+    call InitGridConv(P%NS_plus,  P%qq)
+    call InitGridConv(P%NS_minus, P%qq)
+
+    !-- PNSminus + nf * (PqqS - PqqbarS)
+    call InitGridConv(P%NS_V, P%NS_minus)
+  end subroutine InitSplitMatTransLO
+  
+
+
+

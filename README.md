@@ -1,5 +1,5 @@
 # DY
-Results of "Drell-Yan at COMPASS" S. Bastami, L. Gamberg, B. Pasquini, A. Prokudin,  P. Schweitzer
+Results of "Drell-Yan at COMPASS" S. Bastami, L. Gamberg, B. Parsamyan, B. Pasquini, A. Prokudin,  P. Schweitzer
 
 Comments or questions: e-mail:prokudin@jlab.org
 
