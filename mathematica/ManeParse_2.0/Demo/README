@@ -1,0 +1,113 @@
+#############################
+####### MANEPARSE 2.2 #######
+#############################
+
+Welcome to ManeParse 2.2! 
+
+The Mathematica packages (*.m) that make up ManeParse are contained in the 
+ManeParse/MP_packages/ directory. 
+
+
+To Run Demo:
+    The Demo is intended to be run from within the ManeParse directory without 
+    installing the packages in the Mathematica $UserBaseDirectory.
+
+    1. Unpack ManeParse and navigate to the ManeParse/ directory.
+
+          tar -xzf ManeParse.tgz 
+          cd ./ManeParse
+
+    2. Run the makeDemo.py script to build the file structure needed for 
+        the demo notebook. The script will ask you questions about linking 
+        or downloading the PDF sets used in the demo and then run noe2.perl 
+        to ensure the PDF files are correctly formated.
+         To do this, at the terminal run,
+
+            ./MakeDemo.py
+
+        This will create the directory ./PDF_Sets/ 
+        and subdirectories ./LHA  and ./PDS
+
+    3. Run the demonstration notebook from the ManeParse/ directory.
+
+        mathematica Demo.nb
+
+       Be sure that the Mathematica working directory contains 
+       the Demo.nb file. If it is incorrect, you can set it manually
+       using the Mathematica command: SetDirectory["/home/user/work/..."] 
+
+
+#################################
+####### OPTIONAL INSTRUCTIONS ###
+####### Mathematica Installation
+#################################
+
+If you want to install the ManeParse packages in your Mathematica
+area, the instructions are below. THIS IS NOT REQUIRED. 
+The only advantage is you won't have to point to the specific directory
+where the ManeParse packages (*.m) are located.
+
+Installation:
+    1. Unpack ManeParse and navigate to the ManeParse/ directory.
+
+        tar -xzf ManeParse.tgz 
+        cd ./ManeParse
+
+    2. Copy the contents of MP_packages to the location of your 
+        $UserBaseDirectory using the standard installation procedure 
+        of Mathematica by opening a new Mathematica Document.
+
+            Choose File -> Install...
+            Choose Type of Item to Install -> Package
+            Choose Source -> From File...
+            Choose pdfCalc.m
+            Select Install for this user only
+            Click OK
+            Repeat for pdfParseCTEQ.m, pdfParseLHA.m, and pdfErrors.m.
+
+#################################
+####### GENERAL USAGE  ##########
+#################################
+
+General Usage:
+    1. Load at least one of the parsing packages from your Mathematica noebook. 
+        The pdfCalc.m package will be loaded automatically. 
+            <<pdfParseCTEQ.m;
+            <<pdfParseLHA.m;
+
+    2. Optional: Load the pdfErrors.m package for PDF error estimation.
+        Linux or Mac:
+            <<pdfErrors.m
+
+       Note: If the above packages are not installed at the system level, 
+       you can just specify the directory location with the Get command:
+
+         dirPackages="/home/user/working/.../MP_packages "
+         Get[dirPackages <> "/pdfParseLHA.m"]
+
+    3. Type "?pdf*" for a summary of available functions.
+
+
+#################################
+####### Troubleshooting #########
+#################################
+
+
+Troubleshooting:
+    If the MakeDemo.py script does not run properly, the PDF_sets/ directory 
+    can be removed with the --clean flag.
+        ./MakeDemo.py --clean
+
+
+#################################
+####### CONTACT #################
+#################################
+
+
+Please contact the authors with any questions or suggestions:
+
+    Eric Godat   egodat@smu.edu
+    Ben Clark   dbclark@smu.edu
+    Fred Olness  olness@smu.edu
+
+Thank you!
