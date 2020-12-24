@@ -1,0 +1,476 @@
+\documentclass[a4paper]{article}
+\usepackage{amssymb,amsmath}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage{xcolor}
+\usepackage[normalem]{ulem}
+
+\usepackage[noadjust]{cite}
+
+\newcommand{\alexei}[1]{{\color{blue}#1}}
+\newcommand{\barbara}[1]{{\color{blue}#1}}
+\newcommand{\bakur}[1]{{\color{blue}#1}}
+\newcommand{\saman}[1]{{\color{magenta}#1}}
+\newcommand{\lpg}[1]{{\color{red}#1}}
+\newcommand{\comment}[1]{{\color{blue}#1}}
+
+\newcommand{\bp}[1]{{\color[rgb]{0.43,0.21,0.1}#1}}
+\newcommand{\ps}[1]{{\color[rgb]{0.1,0.5,0}#1}}
+\bibliographystyle{JHEP}
+
+%============= FORMATING (A4) ======================================
+  \setlength{\textwidth}{16cm}
+  \setlength{\textheight}{24.5cm}
+  \setlength{\oddsidemargin}{-0.2
+  cm}
+  \setlength{\topmargin}{-1.7cm}
+%\def\baselinestretch{2}
+
+\begin{document} 
+
+\section*{Reply to the Editor}
+
+\ \\
+Dear Editor,
+
+\ \\
+On July 9, 2020 we were  notified of the Editorial Decision
+that our manuscript JHEP 157P 0620 would no longer be
+considered for publication on the basis of the Referee's Report of our manuscript.
+Upon a careful inspection of the Report we agree 
+with the Referee's overall assessment on how to
+improve our work by carrying out our study in a rigorous TMD factorization framework.
+Therefore on the basis of the Referee's constructive criticism 
+we have revised our manuscript accordingly, addressing all issues raised 
+in the referee's report.
+
+\ \\
+We feel that incorporating the Referee's recommendations 
+has significantly improved our work. For instance, in the 
+revised manuscript the CSS evolution is handled rigorously 
+and according to current state-of-the-art standards.
+
+\ \\
+We therefore would like to appeal the Editor's decision and kindly request 
+a second review of our significantly revised manuscript.
+
+\ \\
+We will be happy if the same Referee or a new Referee is asked to review 
+the revised manuscript --- which ever the Editor deems appropriate.
+
+\ \\
+Sincerely,
+
+\ \\
+Saman Bastami, Leonard Gamberg, Bakur Parsamyan, \\
+Barbara Pasquini, Alexei Prokudin and Peter Schweitzer
+
+\newpage
+\section*{Reply to the Referee}
+
+\ \\
+We would like to thank the Referee for the careful review
+and constructive criticism. We agree in all cases that the 
+points raised by the Referee needed to be addressed. Following
+the Referee's recommendations, our manuscript went through 
+major revisions which, in our opinion, have significantly improved 
+our work. In the following we respond to the points raised by 
+the Referee and outline our revisions.
+
+\ \\
+The Referee has pointed out in the Report that important contributions
+made in Refs.~\cite{Gehrmann:2014yya,Echevarria:2015byo,Echevarria:2015usa,Echevarria:2016scs,Li:2016ctv,Vladimirov:2016dll,Luo:2019hmp,Luo:2019szz,Ebert:2020yqt,Gutierrez-Reyes:2017glx,Gutierrez-Reyes:2018iod,Ji:2006ub,Koike:2007dg,Sun:2013hua,Dai:2014ala,Scimemi:2019gge,Collins:1981va,Aybat:2011zv,Angeles-Martinez:2015sea,Ebert:2020dfc} 
+were not cited in the previous version of the manuscript. 
+We regret that the bibliography did not reflect the significant developments in the field in recent years.
+We remedied this point and included in the revised manuscript 
+all references pointed out by the Referee. In this context we also added 
+the recent work \cite{Moos:2020wvd} which appeared after the Referee Report
+was written (and where important results for the pretzelosity distribution
+were derived). The exact contexts where
+the new references are cited are described in the Summary of Changes. 
+
+\ \\
+We agree with the Referee that our previous discussion of TMD 
+evolution was inadequate. 
+The Referee rightfully criticized that in Eqs.~(2.4)-(2.6) we used
+an inappropriate notation without clearly indicating the scales 
+$(\mu,\,\zeta)$. The Referee wrote: 
+``I cannot accept the work if at least a check
+with the CSS evolution is done.''
+In the revised manuscript all these points are addressed:   
+the Eqs.~(2.4)-(2.6) have been modified, and the Sec.~2.5 is 
+entirely rewritten. 
+We not only run a ``check with the CSS evolution,'' but completely
+changed our approach, by implementing Next-to-Leading Logarithm (NLL) CSS evolution in $b_T$-space,
+and re-calculating all numerical results. The new results confirmed
+our previous estimates based on the Gaussian model, especially if 
+one considers the sizeable error bars of the current data. However,
+at the high COMPASS energies with $\langle Q^2\rangle=28\,{\rm GeV}^2$
+perturbative evolution effects play an important role as the Referee
+correctly pointed out. With the re-calculated results we feel
+more confident when confronting our predictions with the data.
+
+\ \\
+The Referee's question ``from where to where [we are] 
+considering the TMD evolution'' shows that we failed to explain this
+important point which is central for our work. We added several paragraphs 
+in Sec.~1 and Sec.~2.5 to explain this point which we would
+like to re-iterate also in  this Response. 
+
+\ \\
+The challenges we deal with in our work are as follows. 
+We use quark models to estimate the nonperturbative hadronic 
+matrix elements which define TMDs. Quark models are of eminent importance 
+for hadron spectroscopy; they provide a great deal of intuition about hadrons,
+successfully explain many (though not all) hadronic properties, but 
+also have their limitations and the precise connection to QCD is not 
+fully clarified. The specific question 
+we wish to address in our work is whether quark models can catch some of 
+the main features of pion and nucleon structure. When using quark models 
+we deal with 2 nontrivial challenges.
+
+\ \\
+First, is it justified to describe the proton as 3 ``valence $q$'' 
+and the pion as 1 ``valence $q$'' and 1 ``valence $\bar{q}$"? If so, 
+then such a quark model picture is expected to apply at a very low 
+hadronic scale $\mu_0 \lesssim {\cal O}(M_{\rm had})$ where $M_{\rm had}$ 
+is of the order of magnitude of the nucleon mass. The 
+underlying assumption is that at such a low scales the QCD quark degrees 
+of freedom can be approximated by effective constituent-quark or 
+quark-diquark degrees of freedom, depending on the model.  
+In order to address this aspect, one is motivated to use models to evaluate the nonperturbative matrix elements and apply the predictions to phenomenology. 
+Prior studies have indicated 
+that quark models can give useful description of azimuthal and spin
+asymmetries in SIDIS within a model accuracy of (20--30)$\,\%$  
+in the valence-$x$ region $x\gtrsim 0.1$. It is important to explore
+complementary processes, such as Drell-Yan, to further test the models 
+and acquire a more complete picture of their applicability. This is one 
+main motivation for our work.
+
+\ \\
+Second, how can one apply model results calculated at low hadronic scales 
+to the description of high energy experiments like Drell-Yan? For that it 
+is indispensable to apply TMD evolution. Let us first discuss the simpler
+case of PDFs characterized by a single scale, the renormalization scale
+$\mu$. The initial quark model scale $\mu_0$ can be defined as follows. 
+The fraction 
+$M_2^{\rm val}(\mu)=\sum_q\int_0^1dx\,x(f_1^q-f_1^{\bar q})(x,\mu)$
+of the nucleon momentum 
+carried by valence quarks at experimental scales $\mu$ is known 
+from PDF parametrizations. This fraction increases at lower $\mu$
+under DGLAP-evolution. The initial quark model 
+scale is defined as that scale $\mu_0$ where $M_2^{\rm val}(\mu_0)=1$ holds
+\cite{Traini:1997jz}. This method yields $\mu_0 \sim 0.5\,{\rm GeV}$
+for both pion and nucleon with the exact value depending on whether 
+one uses LO or NLO DGLAP evolution.
+
+\ \\
+At this point we wish to clarify a misunderstanding. The Referee seems 
+to have the impression that $\mu_0\ll 1\,{\rm GeV}$. This would indeed 
+make quark model applications questionable. The initial scale $\mu_0$ 
+is below $1\,{\rm GeV}$ but clearly above the Landau pole. It is important 
+to stress that we do not claim that perturbative QCD generally works in 
+this region. However, DGLAP evolution does, in the following sense:
+the works by the GRV (and GRS) groups on parametrizations of nucleon 
+(and pion)
+PDFs show a remarkable perturbative stability between LO and NLO fits
+indicating applicability of DGLAP at initial scales as low as 
+$\mu_0^2 = 0.26\,{\rm GeV}^2$ 
+\cite{Gluck:1991ng,Gluck:1991ey,Gluck:1994uf,Gluck:1998xa,Gluck:1999xe}.
+This indicates that quark models can be used to
+provide, in a first approximation, nonperturbative information on PDFs.
+Admittedly, the GRV parametrizations not only have valence quarks at 
+their initial scales, but also sea-quark and gluon distributions.
+But those are much smaller than the valence quark distributions and in
+this sense constitute a ``small correction'' of about (20--30)$\,\%$ 
+to the leading-order description of hadrons in the Fock expansion.
+
+
+\ \\
+For TMDs the situation is more complex as they depend on a second 
+scale $\zeta$. When applying TMD evolution we face 2 open questions: 
+(i) no rigorous criterion is known how to determine the initial 
+scale $\zeta_0$ in quark models, though it may be natural to assume 
+$\zeta_0 \sim \mu_0^2$; and 
+(ii) there is no expertise with CSS evolution at low scales
+(in contrast to the positive GRV-experience with
+DGLAP evolution).
+
+\ \\
+The ultimate goal is to implement TMD evolution from 
+low initial quark model scales $(\mu_0,\,\zeta_0)$ to experimentally 
+relevant scales. But because of the above-described challenges this 
+is not possible at present. We therefore proceed as follows. 
+In the revised manuscript 
+we take the model PDFs or relevant transverse moments of TMDs and evolve 
+them from their initial scales to $\mu^2 = 2.5\,{\rm GeV}^2$ using DGLAP 
+(this step is supported by the GRV experience).
+We employ exact DGLAP evolution where possible or ``approximate DGLAP 
+evolution,'' e.g.\ in the cases like the Boer-Mulders functions for
+which we use the DGLAP evolution of the chiral-odd transversity PDF, 
+an approximation often used in literature. In this way we evolve
+the model PDFs or transverse moments from the low initial scale $\mu_0^2$ 
+to $\mu^2 = 2.5\,{\rm GeV}^2$ where phenomenological information on many 
+TMDs is available from parametrizations. From  
+$\mu^2 = 2.5\,{\rm GeV}^2$ and $\zeta = 2.5\,{\rm GeV}^2$ 
+we then continue the evolution of the model results up to COMPASS scales
+by applying NLL CSS evolution whose parameters are constrained by 
+phenomenological studies and TMD fits.
+
+\ \\
+This allows us to test the $x_N$-dependence 
+(determined by the models of the nucleon structure)
+and the $x_\pi$-dependence (dictated by the models of the pion structure) 
+of model TMDs. At this point we cannot test 
+the  $k_T$-dependence of model TMDs. This will be addressed in future
+studies. We feel that our new results, based on a state-of-the-art CSS
+evolution, are more reliable and can be compared to the COMPASS data
+with more confidence. The experimental uncertainties 
+are still large. Our results are nevertheless much appreciated by the 
+experimental colleagues, especially in the case of azimuthal Drell-Yan
+single-spin asymmetries for which only few or no calculations are available.
+
+\ \\
+The Referee also raised the concern whether it is legitimate to apply 
+the TMD formalism to the description of COMPASS data considering
+that the covered range of transverse dilepton momenta is 
+$0.4 < q_T < 5\,{\rm GeV}$ with the upper limit of the $q_T$ region 
+of the order of the hard scale $Q$. Indeed, the tail of the $q_T\sim Q$ cross section
+should be described by the fixed-order (FO) contribution to the cross section within the collinear factorization framework, and a matching of the TMD and FO contributions should be carried out. Thus, we share the Referee's concern. 
+However, we have run  some tests and we find that the majority of the COMPASS data
+is in the TMD region. From experiment,  it is known, 
+ that the average $\langle q_T^2/Q^2\rangle \lesssim 0.1$. Further  we verified that our numerical results
+(for asymmetries) have little sensitivity to whether one uses 
+3, 4, or 5 GeV as an upper bound for $q_T$-integration 
+(total cross sections might be more sensitive).
+We are therefore confident that the application of the TMD formalism
+is justified to a good approximation, especially if one considers
+the error bars of the current data. But the Referee  is correct,  and we added a note of caution that this point may need
+a revision when dealing in future with more precise data.
+
+\ \\
+Overall we believe that we have considerably improved our manuscript.
+We refer to the Summary of Changes for a detailed discussion of 
+all our revisions.
+
+%\newpage
+\section*{Summary of Changes}
+
+In the following we describe the changes made in the manuscript in
+the order of their occurrence.
+
+\begin{itemize}
+
+\item\comment{
+Abstract, the following sentence has been added:}
+
+TMD evolution is implemented at Next-to-Leading Logarithmic precision for
+the first time for all asymmetries. 
+
+
+\item\comment{
+Sec.~I ``Introduction.'' The penultimate paragraph is replaced by the
+following text. Hereby the Refs.~\cite{Gehrmann:2014yya,Echevarria:2015byo,Echevarria:2015usa,Echevarria:2016scs,Li:2016ctv,Vladimirov:2016dll,Luo:2019hmp,Luo:2019szz,Ebert:2020yqt,Gutierrez-Reyes:2017glx,Gutierrez-Reyes:2018iod,Ji:2006ub,Koike:2007dg,Sun:2013hua,Dai:2014ala,Scimemi:2019gge,Collins:1981va,Aybat:2011zv,Angeles-Martinez:2015sea,Ebert:2020dfc} 
+pointed out by the Referee as well as the preprint \cite{Moos:2020wvd} 
+(which appeared after the Referee Report was prepared) have been added.
+Notice that the numbering of the references in this Reply (here and in the
+following) differs from the numbering of the references in the manuscript.}
+
+One key aspect in our study is the evolution of model results from 
+the low hadronic scales to experimentally relevant scales. For that 
+(i) knowledge of the low initial scale, and (ii) applicability of evolution 
+equations at low scales are crucial. Both requirements are fulfilled in
+the case of parton distribution functions which depend on one scale only, 
+the renormalization scale~$\mu$.
+First, the value of the initial quark model scale $\mu_0$ can be consistently
+determined by evolving the fraction of nucleon momentum carried by valence 
+quarks, $M_2^{\rm val}(\mu) = \int dx\,x(f_1^q-f_1^{\bar q})(x,\mu)$,
+known from parametrizations, using DGLAP evolution down to that scale
+$\mu_0$ at which valence quarks carry the entire nucleon momentum, 
+i.e.\ $M_2^{\rm val}(\mu_0) = 1$ \cite{Traini:1997jz}. 
+Numerically it is $\mu_0\sim 0.5\,{\rm GeV}$. %\bakur{(0.5\,{\rm GeV}?)}. 
+Second, work by the GRV and GRS groups on parametrizations of nucleon and 
+pion unpolarized parton distribution functions show remarkable perturbative
+stability between LO and NLO fits indicating applicability of DGLAP 
+evolution down to initial scales as low as $\mu_0^2 = 0.26\,{\rm GeV}^2$ 
+% thanks to the reasonably small value of the expansion parameter 
+% $\frac{\alpha_a(\mu_0)}{4\pi} \sim 0.1$
+\cite{Gluck:1991ng,Gluck:1991ey,Gluck:1994uf,Gluck:1998xa,Gluck:1999xe}.
+
+% TMD evolution \cite{Collins:2011zzd} plays an important role 
+% in interpreting the data and understanding of TMDs.
+TMDs depend not only on the renormalization scale $\mu$ but also on 
+the rapidity scale $\zeta$ \cite{Collins:2011zzd}. The theoretical and
+phenomenological understanding of TMDs witnessed an incredible rate of 
+developments in the recent years including NNLO and NNNLO calculations 
+of the evolution kernel of unpolarized TMDs
+\cite{Gehrmann:2014yya,Echevarria:2015byo,Echevarria:2015usa,Echevarria:2016scs,Li:2016ctv,Vladimirov:2016dll,Luo:2019hmp,Luo:2019szz,Ebert:2020yqt},
+NLO calculations for the quark helicity distribution 
+\cite{Gutierrez-Reyes:2017glx}, 
+NLO \cite{Gutierrez-Reyes:2017glx}, and NNLO \cite{Gutierrez-Reyes:2018iod},
+calculations for transversity and pretzelosity, 
+and NLO calculations for the Sivers function 
+\cite{Ji:2006ub,Koike:2007dg,Sun:2013hua,Dai:2014ala,Scimemi:2019gge}.
+Recently also the first non-trivial expression for the small-$b$
+expansion of the pretzelosity distribution was derived \cite{Moos:2020wvd}.
+However, in the context of quark model applications we face two challenges.
+First, no rigorous (analog to the $\mu_0$-determination) criterion exists 
+to fix the value of the initial rapidity scale $\zeta_0$ of quark models, 
+though an educated guess may be $\zeta_0\sim\mu_0^2$.
+Secondly, in the case of Collins-Soper-Sterman (CSS) evolution~\cite{Collins:1984kg}, 
+% \sout{CSS evolution}
+ no expertise is available analog 
+to the GRV/GRS applications of DGLAP evolution starting from low hadronic scales.
+
+In this situation in previous quark model studies 
+TMD evolution effects were often estimated approximately
+\cite{Boffi:2009sh,Pasquini:2011tk,Pasquini:2014ppa} based on
+an heuristic Gaussian Ansatz for transverse parton momenta with
+energy dependent Gaussian widths. While providing a useful 
+description of data on many processes including pion-induced Drell-Yan
+\cite{Schweitzer:2010tt}, it is important to improve the simple Gaussian treatment in view of the recent progress in the TMD theory  
+\cite{Gehrmann:2014yya,Echevarria:2015byo,Echevarria:2015usa,Echevarria:2016scs,Li:2016ctv,Vladimirov:2016dll,Luo:2019hmp,Luo:2019szz,Ebert:2020yqt,Gutierrez-Reyes:2017glx,Gutierrez-Reyes:2018iod,Ji:2006ub,Koike:2007dg,Sun:2013hua,Dai:2014ala,Scimemi:2019gge,Moos:2020wvd}.
+We will therefore use TMD evolution~\cite{Collins:2011zzd} 
+at  Next-to-Leading Logarithm (NLL) precision 
+to describe the transverse momentum dependence of the Drell-Yan process.
+As presently application of TMD evolution at the low quark 
+model scales below 1 GeV is not known and we shall proceed in two steps. We will evolve adequately weighted
+transverse moments of TMDs from the low initial scale $\mu_{0}^{2}$ to a scale of $Q_0^2=2.4\,{\rm GeV}^2$
+at which phenomenological information on transverse momentum dependence 
+is available from TMD fits~\cite{Su:2014wpa, Kang:2014zza,Kang:2015msa, Bacchetta:2017gcc,Scimemi:2019cmh,Bacchetta:2019sam} of polarized and unpolarized SIDIS, DY and weak boson productions data, and use NLL TMD  evolution to evolve to the scales relevant in the % COMPASS experiment 
+COMPASS Drell-Yan measurements, i.e., $\langle Q^2\rangle=28\,{\rm GeV}^2$.
+In this way we will be able to test the $x$-dependencies of the model TMDs 
+while the description of the $q_T$ dependencies of the DY observables
+is described on the basis of TMD fits. 
+%In order to test also the transverse 
+%parton momentum dependence of the TMDs predicted in models, it is necessary
+%to implement CSS evolution at very low scales and demonstrate its applicability.
+%These aspects will be presented in future studies.
+%
+%In Refs.~\cite{Wang:2017zym,Vladimirov:2019bfa} TMD evolution was shown 
+%to be important for the description of the pion-induced unpolarized DY 
+%cross-sections. TMD evolution has been studied for the 
+%COMPASS DY data and asymmetries also in
+%Refs.~\cite{Vladimirov:2019bfa,Li:2019uhj,Ceccopieri:2018nop,
+%Wang:2018naw,Wang:2018pmx}. 
+%QCD evolution is particularly important when applying 
+%CQM results obtained at a low initial scale to 
+%the description of high-energy processes. 
+%Given the precision of current data and accuracy of models,
+%we will content ourselves with an approximate evolution method 
+%shown to provide good estimates of evolution effects in prior studies.
+%
+For completeness we remark that the importance of TMD evolution
+for the description of pion-induced DY and the recent COMPASS
+data was also studied in
+Refs.~\cite{Wang:2017zym,Vladimirov:2019bfa,Li:2019uhj,Ceccopieri:2018nop,
+Wang:2018naw,Wang:2018pmx}.
+
+
+\item\comment{
+Sec.~2.1, after Eqs.~(2.1)-(2.2) the clarifying sentence is added:}
+
+The TMDs depend on renormalization and rapidity scales which are not
+indicated for brevity in (2.1) and (2.2) and will be discussed in Sec.~2.2.
+
+
+\item\comment{
+The Secs.~2.2 and 2.3 are completely rewritten,
+supersede the Secs.~2.2 and 2.5 of the previous version, and provide a detailed
+description of how the CSS evolution is implemented. The changes are too
+extensive to be copied and pasted here, and we refer to the manuscript. 
+The Refs.~\cite{Collins:1981va,Aybat:2011zv,Angeles-Martinez:2015sea,
+Scimemi:2019cmh,Bacchetta:2019sam,Ebert:2020dfc} pointed out by the 
+Referee are cited in the second paragraph of Sec.~2.2.}
+
+
+\item\comment{The following paragraphs are added in sec.~2.5 (sec.~2.4 of the previous version) in accordance with the revisited evolution mechanism:}
+
+{Presently there is no experience in literature with implementing
+CSS evolution at scales as low as $\mu_0\sim 0.5\,{\rm GeV}$
+to which the quark model results refer. Therefore the scale
+$Q_0^2 = 2.4\,{\rm GeV}^2$ was chosen in Sec.~2.3 
+as the initial scale for the CSS evolution.
+The evolution effects between $\mu_0$ and $Q_0$ cannot be determined 
+exactly in the CSS formalism, and they also cannot be neglected. 
+We therefore estimate them as follows.  
+We start with the model predictions for the parton
+distributions or transverse moments of TMDs as they 
+appear in Eq.~(2.25) at the initial quark model 
+scale $\mu_0$. We evolve them using LO DGLAP evolution to 
+the scale $Q_0$. In contrast to CSS, experience with 
+implementing DGLAP evolution at low scales is available \cite{Gluck:1991ng,Gluck:1991ey,Gluck:1994uf,Gluck:1998xa,Gluck:1999xe}. 
+Hereby we use exact DGLAP evolution for $f_{1,h}^a(x)$ and $h_{1,p}^a(x)$.
+In all other cases we use approximate DGLAP evolution: for the transverse
+momenta of the proton Sivers function we use the $f_{1,h}^a(x)$-nonsinglet 
+evolution shown to lead good results in the LFCQM model study of SIDIS 
+asymmetries \cite{Pasquini:2011tk}, while all chiral-odd TMDs we assume 
+the DGLAP evolution of transversity \cite{Hirai:1997mm,Boffi:2009sh}.
+For the $k_T$-dependencies of the TMDs we use the same
+input from TMD parametrizations as described in Eq.~(2.25).
+
+The predictions from both models evolved in this way 
+are shown along with the available parametrizations in
+Figs.~3-4 at the scale $Q_0$. 
+It is important to stress that in this way we are able to test the
+$x$-dependencies of the model predictions against the COMPASS data. 
+The ultimate goal would be to test similarly also the quark model 
+predictions for $k_T$-dependencies. This requires an implementation of 
+the CSS evolution starting from low initial scales $\mu_0< 1\,{\rm GeV}$
+which is beyond the scope of this work, and will be addressed in future studies.} 
+
+
+\item\comment{Figs.~3 and 4 are now presenting the input functions from models and phenomenological fits at the scale $Q_0^2=2.4$~GeV$^2$} 
+
+\item\comment{The Figs.~5, 6, 7, 8, 9 are replaced with new 
+figures showing the new results obtained with NLL CSS evolution.}
+
+
+\item\comment{Sec.~3.3, the following paragraph is added at the 
+end of this section:}
+
+Before ending this section it is important to remark that the COMPASS
+experiment has covered the range $0.4\,{\rm GeV} < q_T < 5\,{\rm GeV}$. 
+At the upper limit the condition $q_T \ll  Q$ for
+the applicability of the TMD factorization is not satisfied which 
+constitutes an  uncertainty in our calculations.
+However, in the experiment (and in our calculation) it is 
+$\langle q_T\rangle = \bakur{1.2} \,{\rm GeV}$ which is much smaller 
+than $\langle Q \rangle = 5.3\,{\rm GeV}$ and we verified that 
+the region of large $q_T$ (namely, $3\,{\rm GeV} < q_T < 5\,{\rm GeV}$) 
+in our calculations has a negligible impact on
+the $q_T$-averaged (integrated) asymmetries in the experiment.
+Considering the accuracy of models, we believe that this is not 
+the dominant uncertainty in our calculation. However, in future 
+when more precise data will become available this point will have
+to be carefully revisited.
+
+
+\item\comment{Sec.~4, Conclusions. The first sentence of the
+second paragraph is modified as follows:}
+
+We presented a complete description of polarized DY at leading twist using TMD evolution at NLL accuracy. 
+
+
+\item\comment{Bibliography. 
+The following references were added during the revisions:}
+ Refs.~\cite{Gehrmann:2014yya,Echevarria:2015byo,Echevarria:2015usa,Echevarria:2016scs,Li:2016ctv,Vladimirov:2016dll,Luo:2019hmp,Luo:2019szz,Ebert:2020yqt,Gutierrez-Reyes:2017glx,Gutierrez-Reyes:2018iod,Ji:2006ub,Koike:2007dg,Sun:2013hua,Dai:2014ala,Scimemi:2019gge,Collins:1981va,Aybat:2011zv,Angeles-Martinez:2015sea,Ebert:2020dfc,Scimemi:2018xaf,DAlesio:2004eso,Efremov:2010mt,Schweitzer:2012hh,Boer:2011xd,Bacchetta:2019qkv,Qiu:2000ga,Moch:2005id,Kang:2011mr,Echevarria:2012pw,Grozin:2014hna,Collins:2017oxh,Pasquini:2007iz,Traini:1997jz,Moos:2020wvd,Su:2014wpa,Kang:2015msa,Kang:2014zza,Bacchetta:2017gcc}.
+
+% PS: INTERNAL REMARK TO OURSELVES.
+% Actually \cite{Scimemi:2019cmh} was mentioned in our preprint.
+% We wrote: `` In order to do it in the full complexity one needs to know 
+% details of the evolution kernel $S$ in all values of $b_{T}$, which is 
+% currently under debate, see for instance Ref.~\cite{Scimemi:2019cmh}.''
+% Also \cite{Bacchetta:2019sam} was mentioned before. Both were preprints 
+% and are meanwhile published. I updated them in the bib-file. \saman{There other references added to the bib, should we address them as well here?}\\
+% \ps{What are the "other references" added in the bib?\\
+% The above "internal comment" can be deleted.}
+
+\end{itemize}
+
+\newpage
+
+\bibliography{biblio_DY} 
+
+\end{document}
+

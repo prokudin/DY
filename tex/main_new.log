@@ -1,0 +1,3466 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 DEC 2020 12:26
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main_new.tex
+(./main_new.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./jheppub.sty
+Package: jheppub 2013/03/21 r534
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+\epsfxsize=\dimen114
+\epsfysize=\dimen115
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count100
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen116
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count103
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
+
+
+Package hyperref Warning: Option `pagecolor' is not available anymore.
+
+Package hyperref Info: Option `linktocpage' set `true' on input line 4322.
+Package hyperref Info: Option `pdfa' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count104
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen117
+\Fld@menulength=\count105
+\Field@Width=\dimen118
+\Fld@charsize=\dimen119
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring ON on input line 6316.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode ON on input line 6326.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+Package hyperref Info: \pdfminorversion:=4 on input line 215.
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+\auth@toks=\toks20
+\affil@toks=\toks21
+\email@toks=\toks22
+\c@email@counter=\count111
+\affiliationsSep=\skip49
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 162.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen120
+\WF@size=\dimen121
+\c@WF@wrappedlines=\count112
+\WF@box=\box28
+\WF@everypar=\toks23
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2016/02/27 v1.2a Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
+LaTeX Info: Redefining \bm on input line 208.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/breqn/breqn.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/05/18 v6512 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
+L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
+L3 Module: l3str 2016/03/24 v6441 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/03/24 v6441 L3 Integers
+\c_max_int=\count113
+\l_tmpa_int=\count114
+\l_tmpb_int=\count115
+\g_tmpa_int=\count116
+\g_tmpb_int=\count117
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count118
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2016/03/26 v6464 L3 Messages
+L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
+\l_iow_line_count_int=\count119
+\l__iow_target_count_int=\count120
+\l__iow_current_line_int=\count121
+\l__iow_current_word_int=\count122
+\l__iow_current_indentation_int=\count123
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen122
+\c_max_dim=\dimen123
+\l_tmpa_dim=\dimen124
+\l_tmpb_dim=\dimen125
+\g_tmpa_dim=\dimen126
+\g_tmpb_dim=\dimen127
+\c_zero_skip=\skip50
+\c_max_skip=\skip51
+\l_tmpa_skip=\skip52
+\l_tmpb_skip=\skip53
+\g_tmpa_skip=\skip54
+\g_tmpb_skip=\skip55
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count124
+\l_keys_choice_int=\count125
+L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
+\c__fp_leading_shift_int=\count126
+\c__fp_middle_shift_int=\count127
+\c__fp_trailing_shift_int=\count128
+\c__fp_big_leading_shift_int=\count129
+\c__fp_big_middle_shift_int=\count130
+\c__fp_big_trailing_shift_int=\count131
+\c__fp_Bigg_leading_shift_int=\count132
+\c__fp_Bigg_middle_shift_int=\count133
+\c__fp_Bigg_trailing_shift_int=\count134
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box29
+\l_tmpa_box=\box30
+\l_tmpb_box=\box31
+\g_tmpa_box=\box32
+\g_tmpb_box=\box33
+L3 Module: l3coffins 2016/05/17 v6508 L3 Coffin code layer
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen128
+\l__coffin_offset_x_dim=\dimen129
+\l__coffin_offset_y_dim=\dimen130
+\l__coffin_x_dim=\dimen131
+\l__coffin_y_dim=\dimen132
+\l__coffin_x_prime_dim=\dimen133
+\l__coffin_y_prime_dim=\dimen134
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen135
+\l__coffin_display_x_dim=\dimen136
+\l__coffin_display_y_dim=\dimen137
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen138
+\l__box_bottom_dim=\dimen139
+\l__box_left_dim=\dimen140
+\l__box_right_dim=\dimen141
+\l__box_top_new_dim=\dimen142
+\l__box_bottom_new_dim=\dimen143
+\l__box_left_new_dim=\dimen144
+\l__box_right_new_dim=\dimen145
+\l__box_internal_box=\box43
+\l__coffin_bounding_shift_dim=\dimen146
+\l__coffin_left_corner_dim=\dimen147
+\l__coffin_right_corner_dim=\dimen148
+\l__coffin_bottom_corner_dim=\dimen149
+\l__coffin_top_corner_dim=\dimen150
+\l__coffin_scaled_total_height_dim=\dimen151
+\l__coffin_scaled_width_dim=\dimen152
+L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count135
+\l__driver_tmp_box=\box44
+))
+Package: breqn 2015/08/11 v0.98d Breaking equations
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/breqn/flexisym.sty
+Package: flexisym 2015/08/11 v0.98d Make math characters macros
+LaTeX Info: Redefining \textprime on input line 299.
+LaTeX Info: Redefining \not on input line 357.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/breqn/cmbase.sym
+File: cmbase.sym 2007/12/19 v0.92
+LaTeX Info: Redefining \hbar on input line 324.
+LaTeX Info: Redefining \surd on input line 326.
+LaTeX Info: Redefining \angle on input line 334.
+LaTeX Info: Redefining \neq on input line 335.
+LaTeX Info: Redefining \mapsto on input line 336.
+LaTeX Info: Redefining \cong on input line 337.
+LaTeX Info: Redefining \notin on input line 340.
+LaTeX Info: Redefining \rightleftharpoons on input line 341.
+LaTeX Info: Redefining \doteq on input line 342.
+LaTeX Info: Redefining \hookrightarrow on input line 343.
+LaTeX Info: Redefining \hookleftarrow on input line 344.
+LaTeX Info: Redefining \bowtie on input line 345.
+LaTeX Info: Redefining \models on input line 346.
+LaTeX Info: Redefining \Longrightarrow on input line 347.
+LaTeX Info: Redefining \longrightarrow on input line 348.
+LaTeX Info: Redefining \Longleftarrow on input line 349.
+LaTeX Info: Redefining \longleftarrow on input line 350.
+LaTeX Info: Redefining \longmapsto on input line 351.
+LaTeX Info: Redefining \longleftrightarrow on input line 352.
+LaTeX Info: Redefining \Longleftrightarrow on input line 353.
+LaTeX Info: Redefining \cdots on input line 357.
+LaTeX Info: Redefining \vdots on input line 360.
+LaTeX Info: Redefining \ddots on input line 365.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/breqn/mathstyle.sty
+Package: mathstyle 2015/08/11 v0.98d Tracking mathstyle implicitly
+LaTeX Info: Redefining \displaystyle on input line 93.
+LaTeX Info: Redefining \textstyle on input line 95.
+LaTeX Info: Redefining \scriptstyle on input line 97.
+LaTeX Info: Redefining \scriptscriptstyle on input line 99.
+LaTeX Info: Redefining \genfrac on input line 145.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count136
+\calc@Bcount=\count137
+\calc@Adimen=\dimen153
+\calc@Bdimen=\dimen154
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count138
+\calc@Cskip=\skip58
+)
+\inf@bad=\count139
+\maxint=\count140
+\listwidth=\dimen155
+\eqnumsep=\dimen156
+\eqmargin=\dimen157
+\eqlinespacing=\skip59
+\eqlineskip=\skip60
+\eqlineskiplimit=\dimen158
+\eqbinoffset=\muskip18
+\eqdelimoffset=\muskip19
+\eqindentstep=\dimen159
+\eqstyle=\toks24
+\eqbreakdepth=\count141
+\eqinterlinepenalty=\count142
+\intereqpenalty=\count143
+\intereqskip=\skip61
+\prerelpenalty=\count144
+\prebinoppenalty=\count145
+\Dmedmuskip=\muskip20
+\Dthickmuskip=\muskip21
+\eqleftskip=\skip62
+\eqrightskip=\skip63
+\eq@vspan=\skip64
+\eq@binoffset=\muskip22
+\EQ@box=\box45
+\EQ@copy=\box46
+\EQ@numbox=\box47
+\eq@wdNum=\dimen160
+\GRP@numbox=\box48
+\grp@wdNum=\dimen161
+\eq@lines=\count146
+\eq@curline=\count147
+\eq@badness=\count148
+\EQ@vims=\count149
+\eq@dp=\dimen162
+\eq@wdL=\dimen163
+\eq@wdT=\dimen164
+\eq@wdMin=\dimen165
+\grp@wdL=\dimen166
+\grp@wdR=\dimen167
+\grp@wdT=\dimen168
+\eq@wdRmax=\dimen169
+\eq@firstht=\dimen170
+\eq@wdCond=\dimen171
+\eq@indentstep=\dimen172
+\eq@linewidth=\dimen173
+\grp@linewidth=\dimen174
+\eq@hshift=\dimen175
+\eq@given@sidespace=\dimen176
+\mathindent=\dimen177
+\eq@final@linecount=\count150
+\eq@wdR=\dimen178
+\EQ@continue=\toks25
+\lr@level=\count151
+\GRP@queue=\toks26
+\GRP@box=\box49
+\GRP@wholebox=\box50
+\darraycolsep=\skip65
+\cur@row=\count152
+\cur@col=\count153
+\conditionsep=\skip66
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen179
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count154
+\float@exts=\toks27
+\float@box=\box51
+\@float@everytoks=\toks28
+\@floatcapt=\box52
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks29
+\SOUL@lasttoken=\toks30
+\SOUL@cmds=\toks31
+\SOUL@buffer=\toks32
+\SOUL@token=\toks33
+\SOUL@spaceskip=\skip67
+\SOUL@ttwidth=\dimen180
+\SOUL@uldp=\dimen181
+\SOUL@ulht=\dimen182
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks34
+\inpenc@posthook=\toks35
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count155
+\output=\toks36
+\linenoprevgraf=\count156
+\linenumbersep=\dimen183
+\linenumberwidth=\dimen184
+\c@linenumber=\count157
+\c@pagewiselinenumber=\count158
+\c@LN@truepage=\count159
+\c@internallinenumber=\count160
+\c@internallinenumbers=\count161
+\quotelinenumbersep=\dimen185
+\bframerule=\dimen186
+\bframesep=\dimen187
+\bframebox=\box53
+LaTeX Info: Redefining \\ on input line 3056.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 41.
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box54
+\UL@hyphenbox=\box55
+\UL@skip=\skip68
+\UL@hook=\toks37
+\UL@height=\dimen188
+\UL@pe=\count162
+\UL@pixel=\dimen189
+\ULC@box=\box56
+Package: ulem 2012/05/18
+\ULdepth=\dimen190
+) (./main_new.aux)
+\openout1 = `main_new.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 219.
+LaTeX Font Info:    ... okay on input line 219.
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count163
+\scratchdimen=\dimen191
+\scratchbox=\box57
+\nofMPsegments=\count164
+\nofMParguments=\count165
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count166
+\MPscratchDim=\dimen192
+\MPnumerator=\count167
+\makeMPintoPDFobject=\count168
+\everyMPtoPDFconversion=\toks39
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring ON on input line 219.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count169
+)
+LaTeX Info: Redefining \ref on input line 219.
+LaTeX Info: Redefining \pageref on input line 219.
+LaTeX Info: Redefining \nameref on input line 219.
+
+(./main_new.out) (./main_new.out)
+\@outlinefile=\write3
+\openout3 = `main_new.out'.
+
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 221.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 221.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 221.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 221.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+
+Package natbib Warning: Citation `Collins:1984kg' on page 1 undefined on input 
+line 231.
+
+
+Package natbib Warning: Citation `Collins:2011zzd' on page 1 undefined on input
+ line 233.
+
+
+Package natbib Warning: Citation `Sivers:1989cc' on page 1 undefined on input l
+ine 238.
+
+
+Package natbib Warning: Citation `Anselmino:1994tv' on page 1 undefined on inpu
+t line 238.
+
+
+Package natbib Warning: Citation `Mulders:1995dh' on page 1 undefined on input 
+line 238.
+
+
+Package natbib Warning: Citation `Cahn:1978se' on page 1 undefined on input lin
+e 241.
+
+
+Package natbib Warning: Citation `Kotzinian:1994dv' on page 1 undefined on inpu
+t line 241.
+
+
+Package natbib Warning: Citation `Kotzinian:1995cz' on page 1 undefined on inpu
+t line 241.
+
+
+Package natbib Warning: Citation `Bacchetta:2006tn' on page 1 undefined on inpu
+t line 241.
+
+
+Package natbib Warning: Citation `Tangerman:1994eh' on page 1 undefined on inpu
+t line 242.
+
+
+Package natbib Warning: Citation `Boer:1997nt' on page 1 undefined on input lin
+e 242.
+
+
+Package natbib Warning: Citation `Arnold:2008kf' on page 1 undefined on input l
+ine 242.
+
+
+Package natbib Warning: Citation `Metz:2016swz' on page 1 undefined on input li
+ne 243.
+
+
+Package natbib Warning: Citation `Collins:1981uk' on page 1 undefined on input 
+line 247.
+
+
+Package natbib Warning: Citation `Collins:1984kg' on page 1 undefined on input 
+line 247.
+
+
+Package natbib Warning: Citation `Qiu:1991pp' on page 1 undefined on input line
+ 247.
+
+
+Package natbib Warning: Citation `Ji:2004wu' on page 1 undefined on input line 
+247.
+
+
+Package natbib Warning: Citation `Ji:2006br' on page 1 undefined on input line 
+247.
+
+
+Package natbib Warning: Citation `Ji:2006vf' on page 1 undefined on input line 
+247.
+
+
+Package natbib Warning: Citation `Collins:2011zzd' on page 1 undefined on input
+ line 247.
+
+
+Package natbib Warning: Citation `Aybat:2011zv' on page 1 undefined on input li
+ne 247.
+
+
+Package natbib Warning: Citation `Ma:2013aca' on page 1 undefined on input line
+ 247.
+
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 1 undefined on input
+ line 247.
+
+
+Package natbib Warning: Citation `Collins:2016hqq' on page 1 undefined on input
+ line 247.
+
+
+Package natbib Warning: Citation `Gluck:1991ng' on page 1 undefined on input li
+ne 261.
+
+
+Package natbib Warning: Citation `Gluck:1994uf' on page 1 undefined on input li
+ne 261.
+
+
+Package natbib Warning: Citation `Gluck:1998xa' on page 1 undefined on input li
+ne 261.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 1 undefined on input l
+ine 261.
+
+
+Package natbib Warning: Citation `Harland-Lang:2014zoa' on page 1 undefined on 
+input line 261.
+
+
+Package natbib Warning: Citation `Dulat:2015mca' on page 1 undefined on input l
+ine 261.
+
+
+Package natbib Warning: Citation `Landry:2002ix' on page 1 undefined on input l
+ine 261.
+
+
+Package natbib Warning: Citation `Anselmino:2013lza' on page 1 undefined on inp
+ut line 261.
+
+
+Package natbib Warning: Citation `Signori:2013mda' on page 1 undefined on input
+ line 261.
+
+
+Package natbib Warning: Citation `Bacchetta:2019sam' on page 1 undefined on inp
+ut line 261.
+
+
+Package natbib Warning: Citation `Scimemi:2019cmh' on page 1 undefined on input
+ line 261.
+
+
+Package natbib Warning: Citation `Anselmino:2011gs' on page 1 undefined on inpu
+t line 263.
+
+
+Package natbib Warning: Citation `Anselmino:2013vqa' on page 1 undefined on inp
+ut line 263.
+
+
+Package natbib Warning: Citation `Barone:2009hw' on page 1 undefined on input l
+ine 263.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 1 undefined on input l
+ine 263.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 1 undefined on inp
+ut line 263.
+
+
+Package natbib Warning: Citation `Bastami:2018xqd' on page 1 undefined on input
+ line 267.
+
+
+Package natbib Warning: Citation `Gluck:1991ey' on page 1 undefined on input li
+ne 269.
+
+
+Package natbib Warning: Citation `Sutton:1991ay' on page 1 undefined on input l
+ine 269.
+
+
+Package natbib Warning: Citation `Gluck:1999xe' on page 1 undefined on input li
+ne 269.
+
+
+Package natbib Warning: Citation `Aicher:2010cb' on page 1 undefined on input l
+ine 269.
+
+
+Package natbib Warning: Citation `Barry:2018ort' on page 1 undefined on input l
+ine 269.
+
+
+Package natbib Warning: Citation `Novikov:2020snp' on page 1 undefined on input
+ line 269.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 1 undefined on inpu
+t line 272.
+
+[1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Weigel:1999pc' on page 2 undefined on input l
+ine 290.
+
+
+Package natbib Warning: Citation `RuizArriola:2003bs' on page 2 undefined on in
+put line 290.
+
+
+Package natbib Warning: Citation `Jakob:1997wg' on page 2 undefined on input li
+ne 291.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 2 undefined on input 
+line 291.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 2 undefined on input 
+line 291.
+
+
+Package natbib Warning: Citation `Bacchetta:2008af' on page 2 undefined on inpu
+t line 291.
+
+
+Package natbib Warning: Citation `Lu:2004hu' on page 2 undefined on input line 
+291.
+
+
+Package natbib Warning: Citation `Pasquini:2008ax' on page 2 undefined on input
+ line 292.
+
+
+Package natbib Warning: Citation `Pasquini:2010af' on page 2 undefined on input
+ line 292.
+
+
+Package natbib Warning: Citation `Lorce:2011dv' on page 2 undefined on input li
+ne 292.
+
+
+Package natbib Warning: Citation `Boffi:2009sh' on page 2 undefined on input li
+ne 292.
+
+
+Package natbib Warning: Citation `Pasquini:2011tk' on page 2 undefined on input
+ line 292.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 2 undefined on inpu
+t line 292.
+
+
+Package natbib Warning: Citation `Lorce:2014hxa' on page 2 undefined on input l
+ine 292.
+
+
+Package natbib Warning: Citation `Lorce:2016ugb' on page 2 undefined on input l
+ine 292.
+
+
+Package natbib Warning: Citation `Yuan:2003wk' on page 2 undefined on input lin
+e 294.
+
+
+Package natbib Warning: Citation `Avakian:2008dz' on page 2 undefined on input 
+line 294.
+
+
+Package natbib Warning: Citation `Courtoy:2008vi' on page 2 undefined on input 
+line 294.
+
+
+Package natbib Warning: Citation `Courtoy:2008dn' on page 2 undefined on input 
+line 294.
+
+
+Package natbib Warning: Citation `Avakian:2010br' on page 2 undefined on input 
+line 294.
+
+
+Package natbib Warning: Citation `Boffi:2009sh' on page 2 undefined on input li
+ne 295.
+
+
+Package natbib Warning: Citation `Pasquini:2011tk' on page 2 undefined on input
+ line 295.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 2 undefined on inpu
+t line 295.
+
+
+Package natbib Warning: Citation `Noguera:2015iia' on page 2 undefined on input
+ line 305.
+
+
+Package natbib Warning: Citation `Engelhardt:2015xja' on page 2 undefined on in
+put line 305.
+
+
+Package natbib Warning: Citation `Lambertsen:2016wgj' on page 2 undefined on in
+put line 305.
+
+
+Package natbib Warning: Citation `Chang:2018pvk' on page 2 undefined on input l
+ine 305.
+
+
+Package natbib Warning: Citation `Bacchetta:2017vzh' on page 2 undefined on inp
+ut line 305.
+
+
+Package natbib Warning: Citation `Broniowski:2017gfp' on page 2 undefined on in
+put line 305.
+
+
+Package natbib Warning: Citation `Ceccopieri:2018nop' on page 2 undefined on in
+put line 305.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 2 undefined on inpu
+t line 318.
+
+[2]
+
+Package natbib Warning: Citation `Traini:1997jz' on page 3 undefined on input l
+ine 332.
+
+
+Package natbib Warning: Citation `Gluck:1991ng' on page 3 undefined on input li
+ne 337.
+
+
+Package natbib Warning: Citation `Gluck:1991ey' on page 3 undefined on input li
+ne 337.
+
+
+Package natbib Warning: Citation `Gluck:1994uf' on page 3 undefined on input li
+ne 337.
+
+
+Package natbib Warning: Citation `Gluck:1998xa' on page 3 undefined on input li
+ne 337.
+
+
+Package natbib Warning: Citation `Gluck:1999xe' on page 3 undefined on input li
+ne 337.
+
+
+Package natbib Warning: Citation `Collins:2011zzd' on page 3 undefined on input
+ line 340.
+
+
+Package natbib Warning: Citation `Gehrmann:2014yya' on page 3 undefined on inpu
+t line 344.
+
+
+Package natbib Warning: Citation `Echevarria:2015byo' on page 3 undefined on in
+put line 344.
+
+
+Package natbib Warning: Citation `Echevarria:2015usa' on page 3 undefined on in
+put line 344.
+
+
+Package natbib Warning: Citation `Echevarria:2016scs' on page 3 undefined on in
+put line 344.
+
+
+Package natbib Warning: Citation `Li:2016ctv' on page 3 undefined on input line
+ 344.
+
+
+Package natbib Warning: Citation `Vladimirov:2016dll' on page 3 undefined on in
+put line 344.
+
+
+Package natbib Warning: Citation `Luo:2019hmp' on page 3 undefined on input lin
+e 344.
+
+
+Package natbib Warning: Citation `Luo:2019szz' on page 3 undefined on input lin
+e 344.
+
+
+Package natbib Warning: Citation `Ebert:2020yqt' on page 3 undefined on input l
+ine 344.
+
+
+Package natbib Warning: Citation `Gutierrez-Reyes:2017glx' on page 3 undefined 
+on input line 346.
+
+
+Package natbib Warning: Citation `Gutierrez-Reyes:2017glx' on page 3 undefined 
+on input line 347.
+
+
+Package natbib Warning: Citation `Gutierrez-Reyes:2018iod' on page 3 undefined 
+on input line 347.
+
+
+Package natbib Warning: Citation `Ji:2006ub' on page 3 undefined on input line 
+350.
+
+
+Package natbib Warning: Citation `Koike:2007dg' on page 3 undefined on input li
+ne 350.
+
+
+Package natbib Warning: Citation `Sun:2013hua' on page 3 undefined on input lin
+e 350.
+
+
+Package natbib Warning: Citation `Dai:2014ala' on page 3 undefined on input lin
+e 350.
+
+
+Package natbib Warning: Citation `Scimemi:2019gge' on page 3 undefined on input
+ line 350.
+
+
+Package natbib Warning: Citation `Moos:2020wvd' on page 3 undefined on input li
+ne 352.
+
+
+Package natbib Warning: Citation `Collins:1984kg' on page 3 undefined on input 
+line 357.
+
+
+Package natbib Warning: Citation `Collins:2011zzd' on page 3 undefined on input
+ line 357.
+
+
+Package natbib Warning: Citation `Boffi:2009sh' on page 3 undefined on input li
+ne 363.
+
+
+Package natbib Warning: Citation `Pasquini:2011tk' on page 3 undefined on input
+ line 363.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 3 undefined on inpu
+t line 363.
+
+
+Package natbib Warning: Citation `Schweitzer:2010tt' on page 3 undefined on inp
+ut line 367.
+
+
+Package natbib Warning: Citation `Gehrmann:2014yya' on page 3 undefined on inpu
+t line 368.
+
+
+Package natbib Warning: Citation `Echevarria:2015byo' on page 3 undefined on in
+put line 368.
+
+
+Package natbib Warning: Citation `Echevarria:2015usa' on page 3 undefined on in
+put line 368.
+
+
+Package natbib Warning: Citation `Echevarria:2016scs' on page 3 undefined on in
+put line 368.
+
+
+Package natbib Warning: Citation `Li:2016ctv' on page 3 undefined on input line
+ 368.
+
+
+Package natbib Warning: Citation `Vladimirov:2016dll' on page 3 undefined on in
+put line 368.
+
+
+Package natbib Warning: Citation `Luo:2019hmp' on page 3 undefined on input lin
+e 368.
+
+
+Package natbib Warning: Citation `Luo:2019szz' on page 3 undefined on input lin
+e 368.
+
+
+Package natbib Warning: Citation `Ebert:2020yqt' on page 3 undefined on input l
+ine 368.
+
+
+Package natbib Warning: Citation `Gutierrez-Reyes:2017glx' on page 3 undefined 
+on input line 368.
+
+
+Package natbib Warning: Citation `Gutierrez-Reyes:2018iod' on page 3 undefined 
+on input line 368.
+
+
+Package natbib Warning: Citation `Ji:2006ub' on page 3 undefined on input line 
+368.
+
+
+Package natbib Warning: Citation `Koike:2007dg' on page 3 undefined on input li
+ne 368.
+
+
+Package natbib Warning: Citation `Sun:2013hua' on page 3 undefined on input lin
+e 368.
+
+
+Package natbib Warning: Citation `Dai:2014ala' on page 3 undefined on input lin
+e 368.
+
+
+Package natbib Warning: Citation `Scimemi:2019gge' on page 3 undefined on input
+ line 368.
+
+
+Package natbib Warning: Citation `Moos:2020wvd' on page 3 undefined on input li
+ne 368.
+
+
+Package natbib Warning: Citation `Collins:2011zzd' on page 3 undefined on input
+ line 369.
+
+
+Package natbib Warning: Citation `Su:2014wpa' on page 3 undefined on input line
+ 376.
+
+
+Package natbib Warning: Citation `Kang:2014zza' on page 3 undefined on input li
+ne 376.
+
+
+Package natbib Warning: Citation `Kang:2015msa' on page 3 undefined on input li
+ne 376.
+
+
+Package natbib Warning: Citation `Bacchetta:2017gcc' on page 3 undefined on inp
+ut line 376.
+
+
+Package natbib Warning: Citation `Scimemi:2019cmh' on page 3 undefined on input
+ line 376.
+
+
+Package natbib Warning: Citation `Bacchetta:2019sam' on page 3 undefined on inp
+ut line 376.
+
+
+Package natbib Warning: Citation `Wang:2017zym' on page 3 undefined on input li
+ne 386.
+
+
+Package natbib Warning: Citation `Vladimirov:2019bfa' on page 3 undefined on in
+put line 386.
+
+
+Package natbib Warning: Citation `Li:2019uhj' on page 3 undefined on input line
+ 386.
+
+
+Package natbib Warning: Citation `Ceccopieri:2018nop' on page 3 undefined on in
+put line 386.
+
+
+Package natbib Warning: Citation `Wang:2018naw' on page 3 undefined on input li
+ne 386.
+
+
+Package natbib Warning: Citation `Wang:2018pmx' on page 3 undefined on input li
+ne 386.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 3 undefined on inpu
+t line 390.
+
+[3]
+
+Package natbib Warning: Citation `Arnold:2008kf' on page 4 undefined on input l
+ine 411.
+
+
+Package natbib Warning: Citation `Arnold:2008kf' on page 4 undefined on input l
+ine 445.
+
+
+LaTeX Warning: File `./figs/Fig00a-CS-frame-COMPASS-3rd.pdf' not found on input
+ line 458.
+
+
+./main_new.tex:458: Package pdftex.def Error: File `./figs/Fig00a-CS-frame-COMP
+ASS-3rd.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.458 ...\FigPath/Fig00a-CS-frame-COMPASS-3rd.pdf}
+                                                  
+? 
+
+Package natbib Warning: Citation `Collins:1984kg' on page 4 undefined on input 
+line 471.
+
+
+Package natbib Warning: Citation `Collins:2011zzd' on page 4 undefined on input
+ line 471.
+
+
+Package natbib Warning: Citation `Ratcliffe:1982yj' on page 4 undefined on inpu
+t line 483.
+
+
+Package natbib Warning: Citation `Weber:1991wd' on page 4 undefined on input li
+ne 483.
+
+
+Package natbib Warning: Citation `Vogelsang:1992jn' on page 4 undefined on inpu
+t line 483.
+
+
+Package natbib Warning: Citation `Contogouris:1994ws' on page 4 undefined on in
+put line 483.
+
+
+Package natbib Warning: Citation `Gehrmann:1997pi' on page 4 undefined on input
+ line 483.
+
+
+Package natbib Warning: Citation `Bunce:2000uv' on page 4 undefined on input li
+ne 483.
+
+
+Package natbib Warning: Citation `Shimizu:2005fp' on page 4 undefined on input 
+line 483.
+
+
+Package natbib Warning: Citation `Collins:1981uk' on page 4 undefined on input 
+line 497.
+
+
+Package natbib Warning: Citation `Collins:1984kg' on page 4 undefined on input 
+line 497.
+
+
+Package natbib Warning: Citation `Qiu:1991pp' on page 4 undefined on input line
+ 497.
+
+
+Package natbib Warning: Citation `Ji:2004wu' on page 4 undefined on input line 
+497.
+
+
+Package natbib Warning: Citation `Ji:2006br' on page 4 undefined on input line 
+497.
+
+
+Package natbib Warning: Citation `Ji:2006vf' on page 4 undefined on input line 
+497.
+
+
+Package natbib Warning: Citation `Collins:2011zzd' on page 4 undefined on input
+ line 497.
+
+
+Package natbib Warning: Citation `Aybat:2011zv' on page 4 undefined on input li
+ne 497.
+
+
+Package natbib Warning: Citation `Ma:2013aca' on page 4 undefined on input line
+ 497.
+
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 4 undefined on input
+ line 497.
+
+
+Package natbib Warning: Citation `Collins:2016hqq' on page 4 undefined on input
+ line 497.
+
+
+Package natbib Warning: Citation `Scimemi:2018xaf' on page 4 undefined on input
+ line 497.
+
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 4 undefined on input
+ line 502.
+
+[4]
+
+Package natbib Warning: Citation `Collins:1981va' on page 5 undefined on input 
+line 507.
+
+
+Package natbib Warning: Citation `Aybat:2011zv' on page 5 undefined on input li
+ne 507.
+
+
+Package natbib Warning: Citation `Angeles-Martinez:2015sea' on page 5 undefined
+ on input line 507.
+
+
+Package natbib Warning: Citation `Scimemi:2019cmh' on page 5 undefined on input
+ line 507.
+
+
+Package natbib Warning: Citation `Bacchetta:2019sam' on page 5 undefined on inp
+ut line 507.
+
+
+Package natbib Warning: Citation `Ebert:2020dfc' on page 5 undefined on input l
+ine 507.
+
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 5 undefined on input
+ line 518.
+
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 5 undefined on input
+ line 522.
+
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 5 undefined on input
+ line 528.
+
+
+Package natbib Warning: Citation `Collins:2017oxh' on page 5 undefined on input
+ line 533.
+
+
+Package natbib Warning: Citation `DAlesio:2004eso' on page 5 undefined on input
+ line 548.
+
+
+Package natbib Warning: Citation `Schweitzer:2010tt' on page 5 undefined on inp
+ut line 548.
+
+
+Package natbib Warning: Citation `Avakian:2010br' on page 5 undefined on input 
+line 550.
+
+
+Package natbib Warning: Citation `Efremov:2010mt' on page 5 undefined on input 
+line 550.
+
+
+Package natbib Warning: Citation `Pasquini:2011tk' on page 5 undefined on input
+ line 550.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 5 undefined on inpu
+t line 550.
+
+
+Package natbib Warning: Citation `Schweitzer:2012hh' on page 5 undefined on inp
+ut line 550.
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.553 
+      ]
+
+Package natbib Warning: Citation `Boer:2011xd' on page 6 undefined on input lin
+e 554.
+
+
+Package natbib Warning: Citation `Bacchetta:2019qkv' on page 6 undefined on inp
+ut line 554.
+
+
+Package natbib Warning: Citation `Boer:2011xd' on page 6 undefined on input lin
+e 583.
+
+
+Package natbib Warning: Citation `Mulders:1995dh' on page 6 undefined on input 
+line 593.
+
+
+Package natbib Warning: Citation `Aybat:2011zv' on page 6 undefined on input li
+ne 603.
+
+
+Package natbib Warning: Citation `Collins:2011zzd' on page 6 undefined on input
+ line 603.
+
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 6 undefined on input
+ line 612.
+
+
+Package natbib Warning: Citation `Collins:1984kg' on page 6 undefined on input 
+line 618.
+
+[6]
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 7 undefined on input
+ line 628.
+
+
+Package natbib Warning: Citation `Collins:2017oxh' on page 7 undefined on input
+ line 639.
+
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 7 undefined on input
+ line 639.
+
+
+Package natbib Warning: Citation `Collins:1984kg' on page 7 undefined on input 
+line 651.
+
+
+Package natbib Warning: Citation `Qiu:2000ga' on page 7 undefined on input line
+ 651.
+
+
+Package natbib Warning: Citation `Landry:2002ix' on page 7 undefined on input l
+ine 651.
+
+
+Package natbib Warning: Citation `Moch:2005id' on page 7 undefined on input lin
+e 651.
+
+
+Package natbib Warning: Citation `Kang:2011mr' on page 7 undefined on input lin
+e 651.
+
+
+Package natbib Warning: Citation `Aybat:2011zv' on page 7 undefined on input li
+ne 651.
+
+
+Package natbib Warning: Citation `Echevarria:2012pw' on page 7 undefined on inp
+ut line 651.
+
+
+Package natbib Warning: Citation `Grozin:2014hna' on page 7 undefined on input 
+line 651.
+
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 7 undefined on input
+ line 651.
+
+
+Package natbib Warning: Citation `Collins:2017oxh' on page 7 undefined on input
+ line 662.
+
+
+Package natbib Warning: Citation `Echevarria:2020hpy' on page 7 undefined on in
+put line 662.
+
+
+Package natbib Warning: Citation `Bethke:2012jm' on page 7 undefined on input l
+ine 680.
+
+
+Package natbib Warning: Citation `Hou:2019efy' on page 7 undefined on input lin
+e 680.
+
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 7 undefined on input
+ line 682.
+
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 7 undefined on input
+ line 687.
+
+
+Package natbib Warning: Citation `Kang:2014zza' on page 7 undefined on input li
+ne 687.
+
+
+Package natbib Warning: Citation `Kang:2015msa' on page 7 undefined on input li
+ne 687.
+
+
+Package natbib Warning: Citation `Su:2014wpa' on page 7 undefined on input line
+ 687.
+
+[7]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 692.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 692.
+
+
+Package natbib Warning: Citation `Bastami:2018xqd' on page 8 undefined on input
+ line 694.
+
+[8]
+
+LaTeX Warning: File `./figs/Fig-knowledge-TMDs-NEW-NEW.pdf' not found on input 
+line 796.
+
+
+./main_new.tex:796: Package pdftex.def Error: File `./figs/Fig-knowledge-TMDs-N
+EW-NEW.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.796 ...{\FigPath/Fig-knowledge-TMDs-NEW-NEW.pdf}
+                                                  
+? 
+
+Package natbib Warning: Citation `Gluck:1998xa' on page 9 undefined on input li
+ne 805.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 9 undefined on input l
+ine 805.
+
+
+Package natbib Warning: Citation `Harland-Lang:2014zoa' on page 9 undefined on 
+input line 805.
+
+
+Package natbib Warning: Citation `Dulat:2015mca' on page 9 undefined on input l
+ine 805.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 9 undefined on input l
+ine 807.
+
+
+Package natbib Warning: Citation `Landry:2002ix' on page 9 undefined on input l
+ine 811.
+
+
+Package natbib Warning: Citation `Anselmino:2013lza' on page 9 undefined on inp
+ut line 811.
+
+
+Package natbib Warning: Citation `Signori:2013mda' on page 9 undefined on input
+ line 811.
+
+
+Package natbib Warning: Citation `Bacchetta:2019sam' on page 9 undefined on inp
+ut line 811.
+
+
+Package natbib Warning: Citation `Scimemi:2019cmh' on page 9 undefined on input
+ line 811.
+
+
+Package natbib Warning: Citation `Gluck:1991ey' on page 9 undefined on input li
+ne 816.
+
+
+Package natbib Warning: Citation `Sutton:1991ay' on page 9 undefined on input l
+ine 816.
+
+
+Package natbib Warning: Citation `Gluck:1999xe' on page 9 undefined on input li
+ne 816.
+
+
+Package natbib Warning: Citation `Aicher:2010cb' on page 9 undefined on input l
+ine 816.
+
+
+Package natbib Warning: Citation `Barry:2018ort' on page 9 undefined on input l
+ine 816.
+
+
+Package natbib Warning: Citation `Novikov:2020snp' on page 9 undefined on input
+ line 816.
+
+
+Package natbib Warning: Citation `Sutton:1991ay' on page 9 undefined on input l
+ine 816.
+
+
+Package natbib Warning: Citation `Anselmino:2010bs' on page 9 undefined on inpu
+t line 821.
+
+
+Package natbib Warning: Citation `Anselmino:2005ea' on page 9 undefined on inpu
+t line 821.
+
+
+Package natbib Warning: Citation `Anselmino:2005an' on page 9 undefined on inpu
+t line 821.
+
+
+Package natbib Warning: Citation `Collins:2005ie' on page 9 undefined on input 
+line 821.
+
+
+Package natbib Warning: Citation `Vogelsang:2005cs' on page 9 undefined on inpu
+t line 821.
+
+
+Package natbib Warning: Citation `Anselmino:2008sga' on page 9 undefined on inp
+ut line 821.
+
+
+Package natbib Warning: Citation `Bacchetta:2011gx' on page 9 undefined on inpu
+t line 821.
+
+
+Package natbib Warning: Citation `Anselmino:2011gs' on page 9 undefined on inpu
+t line 821.
+
+
+Package natbib Warning: Citation `Echevarria:2014xaa' on page 9 undefined on in
+put line 821.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 9 undefined on inp
+ut line 821.
+
+
+Package natbib Warning: Citation `Bacchetta:2020gko' on page 9 undefined on inp
+ut line 821.
+
+
+Package natbib Warning: Citation `Anselmino:2011gs' on page 9 undefined on inpu
+t line 822.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 9 undefined on inp
+ut line 823.
+
+
+Package natbib Warning: Citation `Collins:1992kk' on page 9 undefined on input 
+line 828.
+
+
+Package natbib Warning: Citation `Anselmino:2013vqa' on page 9 undefined on inp
+ut line 831.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 9 undefined on inp
+ut line 833.
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.835 
+      ]
+
+Package natbib Warning: Citation `Barone:2009hw' on page 10 undefined on input 
+line 838.
+
+
+Package natbib Warning: Citation `Barone:2009hw' on page 10 undefined on input 
+line 840.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 10 undefined on input 
+line 845.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 10 undefined on input 
+line 845.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 10 undefined on input 
+line 847.
+
+
+Package natbib Warning: Citation `Airapetian:1999tv' on page 10 undefined on in
+put line 851.
+
+
+Package natbib Warning: Citation `Jawalkar:2017ube' on page 10 undefined on inp
+ut line 851.
+
+
+Package natbib Warning: Citation `Parsamyan:2018evv' on page 10 undefined on in
+put line 851.
+
+
+Package natbib Warning: Citation `Bastami:2018xqd' on page 10 undefined on inpu
+t line 853.
+
+
+Package natbib Warning: Citation `Anselmino:2013vqa' on page 10 undefined on in
+put line 855.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 10 undefined on in
+put line 855.
+
+
+Package natbib Warning: Citation `Pasquini:2008ax' on page 10 undefined on inpu
+t line 883.
+
+
+Package natbib Warning: Citation `Pasquini:2008ax' on page 10 undefined on inpu
+t line 884.
+
+
+Package natbib Warning: Citation `Pasquini:2010af' on page 10 undefined on inpu
+t line 884.
+
+
+Package natbib Warning: Citation `Boffi:2009sh' on page 10 undefined on input l
+ine 884.
+
+
+Package natbib Warning: Citation `Pasquini:2011tk' on page 10 undefined on inpu
+t line 884.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 10 undefined on inp
+ut line 884.
+
+
+Package natbib Warning: Citation `Schlumpf:1992pp' on page 10 undefined on inpu
+t line 887.
+
+
+Package natbib Warning: Citation `Schlumpf:1992pp' on page 10 undefined on inpu
+t line 890.
+
+
+Package natbib Warning: Citation `Pasquini:2007iz' on page 10 undefined on inpu
+t line 890.
+
+
+Package natbib Warning: Citation `Schlumpf:1994bc' on page 10 undefined on inpu
+t line 892.
+
+
+./main_new.tex:901: LaTeX Error: File `./figs/Evo_xf1ubpion' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.901 ...=0.33\textwidth]{\FigPath/Evo_xf1ubpion}}
+                                                   & \hspace{5mm}\rotatebox[...
+
+? 
+
+./main_new.tex:901: LaTeX Error: File `./figs/Evo_xh1p1pion' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.901 ...=0.33\textwidth]{\FigPath/Evo_xh1p1pion}}
+                                                   \\
+? 
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 10 undefined on inp
+ut line 913.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 10 undefined on input
+ line 913.
+
+
+Package natbib Warning: Citation `Sutton:1991ay' on page 10 undefined on input 
+line 913.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 10 undefined on inp
+ut line 913.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 10 undefined on input
+ line 913.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 10 undefined on inp
+ut line 913.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 10 undefined on input
+ line 913.
+
+
+Package natbib Warning: Citation `Sutton:1991ay' on page 10 undefined on input 
+line 913.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 10 undefined on inp
+ut line 913.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 10 undefined on input
+ line 913.
+
+
+Package natbib Warning: Citation `Gamberg:2005ip' on page 10 undefined on input
+ line 920.
+
+
+Package natbib Warning: Citation `Meyer:1990fr' on page 10 undefined on input l
+ine 925.
+
+
+Package natbib Warning: Citation `Jakob:1997wg' on page 10 undefined on input l
+ine 925.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 10 undefined on input
+ line 925.
+
+
+./main_new.tex:933: LaTeX Error: File `./figs/Evo_xf1u' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.933 ...[width=0.3\textwidth]{\FigPath/Evo_xf1u}}
+                                                   & & \hspace{2mm} \rotateb...
+
+? 
+
+./main_new.tex:933: LaTeX Error: File `./figs/Evo_xf1d' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.933 ...[width=0.3\textwidth]{\FigPath/Evo_xf1d}}
+                                                   \\
+? 
+
+./main_new.tex:936: LaTeX Error: File `./figs/Evo_xf1Tp1u' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.936 ...h=0.308\textwidth]{\FigPath/Evo_xf1Tp1u}}
+                                                    & & \rotatebox[origin=c]...
+
+? 
+
+./main_new.tex:936: LaTeX Error: File `./figs/Evo_xf1Tp1d' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.936 ...h=0.316\textwidth]{\FigPath/Evo_xf1Tp1d}}
+                                                   \\
+? 
+
+./main_new.tex:939: LaTeX Error: File `./figs/Evo_xh1u' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 ...[width=0.3\textwidth]{\FigPath/Evo_xh1u}}
+                                                    & & \rotatebox[origin=c]...
+
+? 
+
+./main_new.tex:939: LaTeX Error: File `./figs/Evo_xh1d' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 ...idth=0.309\textwidth]{\FigPath/Evo_xh1d}}
+                                                   \\
+? 
+
+./main_new.tex:942: LaTeX Error: File `./figs/Evo_xh1p1u' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.942 ...dth=0.31\textwidth]{\FigPath/Evo_xh1p1u}}
+                                                   & & \rotatebox[origin=c]{...
+
+? 
+
+./main_new.tex:942: LaTeX Error: File `./figs/Evo_xh1p1d' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.942 ...dth=0.31\textwidth]{\FigPath/Evo_xh1p1d}}
+                                                   \\
+? 
+
+./main_new.tex:945: LaTeX Error: File `./figs/Evo_xh1Tp2u' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.945 ...h=0.326\textwidth]{\FigPath/Evo_xh1Tp2u}}
+                                                   & & \hspace{-1mm}\rotateb...
+
+? 
+
+./main_new.tex:945: LaTeX Error: File `./figs/Evo_xh1Tp2d' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.945 ...h=0.326\textwidth]{\FigPath/Evo_xh1Tp2d}}
+                                                   \\
+? 
+
+./main_new.tex:948: LaTeX Error: File `./figs/Evo_xh1Lp1u' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.948 ...h=0.318\textwidth]{\FigPath/Evo_xh1Lp1u}}
+                                                   & & \rotatebox[origin=c]{...
+
+? 
+
+./main_new.tex:948: LaTeX Error: File `./figs/Evo_xh1Lp1d' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.948 ...h=0.318\textwidth]{\FigPath/Evo_xh1Lp1d}}
+                                                   \\
+? 
+
+Package natbib Warning: Citation `Pasquini:2008ax' on page 10 undefined on inpu
+t line 958.
+
+
+Package natbib Warning: Citation `Boffi:2009sh' on page 10 undefined on input l
+ine 958.
+
+
+Package natbib Warning: Citation `Pasquini:2011tk' on page 10 undefined on inpu
+t line 958.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 10 undefined on input
+ line 958.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 10 undefined on input 
+line 958.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 10 undefined on in
+put line 958.
+
+
+Package natbib Warning: Citation `Anselmino:2011gs' on page 10 undefined on inp
+ut line 958.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 10 undefined on in
+put line 958.
+
+
+Package natbib Warning: Citation `Anselmino:2013vqa' on page 10 undefined on in
+put line 958.
+
+
+Package natbib Warning: Citation `Barone:2009hw' on page 10 undefined on input 
+line 958.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 10 undefined on input 
+line 958.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 10 undefined on in
+put line 958.
+
+
+Package natbib Warning: Citation `Pasquini:2008ax' on page 10 undefined on inpu
+t line 958.
+
+
+Package natbib Warning: Citation `Boffi:2009sh' on page 10 undefined on input l
+ine 958.
+
+
+Package natbib Warning: Citation `Pasquini:2011tk' on page 10 undefined on inpu
+t line 958.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 10 undefined on input
+ line 958.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 10 undefined on input 
+line 958.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 10 undefined on in
+put line 958.
+
+
+Package natbib Warning: Citation `Anselmino:2011gs' on page 10 undefined on inp
+ut line 958.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 10 undefined on in
+put line 958.
+
+
+Package natbib Warning: Citation `Anselmino:2013vqa' on page 10 undefined on in
+put line 958.
+
+
+Package natbib Warning: Citation `Barone:2009hw' on page 10 undefined on input 
+line 958.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 10 undefined on input 
+line 958.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 10 undefined on in
+put line 958.
+
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.960 \end{figure}
+                  ]
+
+Package natbib Warning: Citation `Brodsky:2002cx' on page 11 undefined on input
+ line 964.
+
+
+Package natbib Warning: Citation `Ji:2002aa' on page 11 undefined on input line
+ 964.
+
+
+Package natbib Warning: Citation `Goldstein:2002vv' on page 11 undefined on inp
+ut line 964.
+
+
+Package natbib Warning: Citation `Metz:2002iz' on page 11 undefined on input li
+ne 964.
+
+
+Package natbib Warning: Citation `Gamberg:2003eg' on page 11 undefined on input
+ line 964.
+
+
+Package natbib Warning: Citation `Collins:2004nx' on page 11 undefined on input
+ line 964.
+
+
+Package natbib Warning: Citation `Gamberg:2008yt' on page 11 undefined on input
+ line 964.
+
+
+Package natbib Warning: Citation `Ji:2002aa' on page 11 undefined on input line
+ 967.
+
+
+Package natbib Warning: Citation `Goldstein:2002vv' on page 11 undefined on inp
+ut line 967.
+
+
+Package natbib Warning: Citation `Gamberg:2003ey' on page 11 undefined on input
+ line 967.
+
+
+Package natbib Warning: Citation `Boer:2002ju' on page 11 undefined on input li
+ne 967.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 11 undefined on input
+ line 967.
+
+
+Package natbib Warning: Citation `Bacchetta:2008af' on page 11 undefined on inp
+ut line 967.
+
+
+Package natbib Warning: Citation `Brodsky:2002cx' on page 11 undefined on input
+ line 970.
+
+
+Package natbib Warning: Citation `Ji:2002aa' on page 11 undefined on input line
+ 970.
+
+
+Package natbib Warning: Citation `Goldstein:2002vv' on page 11 undefined on inp
+ut line 970.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 11 undefined on input
+ line 973.
+
+
+Package natbib Warning: Citation `Gluck:1998xa' on page 11 undefined on input l
+ine 977.
+
+
+Package natbib Warning: Citation `Jakob:1997wg' on page 11 undefined on input l
+ine 982.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 11 undefined on input
+ line 982.
+
+
+Package natbib Warning: Citation `Gluck:1991ng' on page 11 undefined on input l
+ine 995.
+
+
+Package natbib Warning: Citation `Gluck:1991ey' on page 11 undefined on input l
+ine 995.
+
+
+Package natbib Warning: Citation `Gluck:1994uf' on page 11 undefined on input l
+ine 995.
+
+
+Package natbib Warning: Citation `Gluck:1998xa' on page 11 undefined on input l
+ine 995.
+
+
+Package natbib Warning: Citation `Gluck:1999xe' on page 11 undefined on input l
+ine 995.
+
+
+Package natbib Warning: Citation `Pasquini:2011tk' on page 11 undefined on inpu
+t line 1000.
+
+
+Package natbib Warning: Citation `Hirai:1997mm' on page 11 undefined on input l
+ine 1001.
+
+
+Package natbib Warning: Citation `Boffi:2009sh' on page 11 undefined on input l
+ine 1001.
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1005 T
+        he predictions from both models evolved in this way]
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 12 undefined on inp
+ut line 1015.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 12 undefined on input
+ line 1016.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 12 undefined on input 
+line 1019.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 12 undefined on input 
+line 1023.
+
+
+Package natbib Warning: Citation `Pasquini:2008ax' on page 12 undefined on inpu
+t line 1032.
+
+
+Package natbib Warning: Citation `Boffi:2009sh' on page 12 undefined on input l
+ine 1032.
+
+
+Package natbib Warning: Citation `Pasquini:2011tk' on page 12 undefined on inpu
+t line 1032.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 12 undefined on input
+ line 1032.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 12 undefined on inp
+ut line 1035.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 12 undefined on input 
+line 1049.
+
+
+Package natbib Warning: Citation `Anselmino:2011gs' on page 12 undefined on inp
+ut line 1051.
+
+
+Package natbib Warning: Citation `Anselmino:2013vqa' on page 12 undefined on in
+put line 1051.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 12 undefined on in
+put line 1052.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 12 undefined on in
+put line 1053.
+
+
+Package natbib Warning: Citation `Anselmino:2011gs' on page 12 undefined on inp
+ut line 1055.
+
+
+Package natbib Warning: Citation `Anselmino:2013vqa' on page 12 undefined on in
+put line 1055.
+
+
+Package natbib Warning: Citation `Barone:2009hw' on page 12 undefined on input 
+line 1059.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 12 undefined on input 
+line 1063.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 12 undefined on inp
+ut line 1083.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 12 undefined on inp
+ut line 1092.
+
+
+Package natbib Warning: Citation `Parsamyan:2019wwd' on page 12 undefined on in
+put line 1093.
+
+
+Package natbib Warning: Citation `Anselmino:2013vqa' on page 12 undefined on in
+put line 1101.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 12 undefined on in
+put line 1102.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 12 undefined on input 
+line 1103.
+
+
+Package natbib Warning: Citation `Sutton:1991ay' on page 12 undefined on input 
+line 1103.
+
+[12]
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 13 undefined on inp
+ut line 1118.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 13 undefined on input
+ line 1118.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 13 undefined on in
+put line 1121.
+
+
+Package natbib Warning: Citation `Barone:2009hw' on page 13 undefined on input 
+line 1122.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 13 undefined on input 
+line 1123.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 13 undefined on in
+put line 1129.
+
+
+Package natbib Warning: Citation `Bastami:2018xqd' on page 13 undefined on inpu
+t line 1130.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 13 undefined on input 
+line 1134.
+
+
+Package natbib Warning: Citation `Sutton:1991ay' on page 13 undefined on input 
+line 1134.
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsinphi_xN.pdf)
+: PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/Evo_AUTsinphi_xN.pdf, id=224, 361.35pt x 219.82124pt>
+File: ./figs/Evo_AUTsinphi_xN.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUTsinphi_xN.pdf>
+Package pdftex.def Info: ./figs/Evo_AUTsinphi_xN.pdf used on input line 1140.
+(pdftex.def)             Requested size: 128.0374pt x 77.88782pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsinphi_xpi.pdf
+): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/Evo_AUTsinphi_xpi.pdf, id=225, 361.35pt x 219.82124pt>
+File: ./figs/Evo_AUTsinphi_xpi.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUTsinphi_xpi.pdf>
+Package pdftex.def Info: ./figs/Evo_AUTsinphi_xpi.pdf used on input line 1140.
+(pdftex.def)             Requested size: 128.0374pt x 77.88782pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsinphi_qT.pdf)
+: PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/Evo_AUTsinphi_qT.pdf, id=226, 361.35pt x 223.83624pt>
+File: ./figs/Evo_AUTsinphi_qT.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUTsinphi_qT.pdf>
+Package pdftex.def Info: ./figs/Evo_AUTsinphi_qT.pdf used on input line 1140.
+(pdftex.def)             Requested size: 128.0374pt x 79.31042pt.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 13 undefined on inp
+ut line 1148.
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_m_phiS
+_xN.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
+owed
+<./figs/Evo_AUTsin2phi_m_phiS_xN.pdf, id=227, 361.35pt x 219.82124pt>
+File: ./figs/Evo_AUTsin2phi_m_phiS_xN.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUTsin2phi_m_phiS_xN.pdf>
+Package pdftex.def Info: ./figs/Evo_AUTsin2phi_m_phiS_xN.pdf used on input line
+ 1154.
+(pdftex.def)             Requested size: 128.0374pt x 77.88782pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_m_phiS
+_xpi.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
+lowed
+<./figs/Evo_AUTsin2phi_m_phiS_xpi.pdf, id=228, 361.35pt x 219.82124pt>
+File: ./figs/Evo_AUTsin2phi_m_phiS_xpi.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUTsin2phi_m_phiS_xpi.pdf>
+Package pdftex.def Info: ./figs/Evo_AUTsin2phi_m_phiS_xpi.pdf used on input lin
+e 1154.
+(pdftex.def)             Requested size: 128.0374pt x 77.88782pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_m_phiS
+_qT.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
+owed
+<./figs/Evo_AUTsin2phi_m_phiS_qT.pdf, id=229, 361.35pt x 223.83624pt>
+File: ./figs/Evo_AUTsin2phi_m_phiS_qT.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUTsin2phi_m_phiS_qT.pdf>
+Package pdftex.def Info: ./figs/Evo_AUTsin2phi_m_phiS_qT.pdf used on input line
+ 1154.
+(pdftex.def)             Requested size: 128.0374pt x 79.31042pt.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 13 undefined on inp
+ut line 1161.
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_p_phiS
+_xN.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
+owed
+<./figs/Evo_AUTsin2phi_p_phiS_xN.pdf, id=230, 361.35pt x 219.82124pt>
+File: ./figs/Evo_AUTsin2phi_p_phiS_xN.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUTsin2phi_p_phiS_xN.pdf>
+Package pdftex.def Info: ./figs/Evo_AUTsin2phi_p_phiS_xN.pdf used on input line
+ 1166.
+(pdftex.def)             Requested size: 128.0374pt x 77.88782pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_p_phiS
+_xpi.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
+lowed
+<./figs/Evo_AUTsin2phi_p_phiS_xpi.pdf, id=231, 361.35pt x 219.82124pt>
+File: ./figs/Evo_AUTsin2phi_p_phiS_xpi.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUTsin2phi_p_phiS_xpi.pdf>
+Package pdftex.def Info: ./figs/Evo_AUTsin2phi_p_phiS_xpi.pdf used on input lin
+e 1166.
+(pdftex.def)             Requested size: 128.0374pt x 77.88782pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_p_phiS
+_qT.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
+owed
+<./figs/Evo_AUTsin2phi_p_phiS_qT.pdf, id=232, 361.35pt x 223.83624pt>
+File: ./figs/Evo_AUTsin2phi_p_phiS_qT.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUTsin2phi_p_phiS_qT.pdf>
+Package pdftex.def Info: ./figs/Evo_AUTsin2phi_p_phiS_qT.pdf used on input line
+ 1166.
+(pdftex.def)             Requested size: 128.0374pt x 79.31042pt.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 13 undefined on inp
+ut line 1173.
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUUcos2phi_xN.pdf
+): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/Evo_AUUcos2phi_xN.pdf, id=233, 361.35pt x 220.825pt>
+File: ./figs/Evo_AUUcos2phi_xN.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUUcos2phi_xN.pdf>
+Package pdftex.def Info: ./figs/Evo_AUUcos2phi_xN.pdf used on input line 1178.
+(pdftex.def)             Requested size: 128.0374pt x 78.24347pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUUcos2phi_xpi.pd
+f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/Evo_AUUcos2phi_xpi.pdf, id=234, 361.35pt x 220.825pt>
+File: ./figs/Evo_AUUcos2phi_xpi.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUUcos2phi_xpi.pdf>
+Package pdftex.def Info: ./figs/Evo_AUUcos2phi_xpi.pdf used on input line 1178.
+
+(pdftex.def)             Requested size: 128.0374pt x 78.24347pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUUcos2phi_qT.pdf
+): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/Evo_AUUcos2phi_qT.pdf, id=235, 361.35pt x 224.84pt>
+File: ./figs/Evo_AUUcos2phi_qT.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUUcos2phi_qT.pdf>
+Package pdftex.def Info: ./figs/Evo_AUUcos2phi_qT.pdf used on input line 1178.
+(pdftex.def)             Requested size: 128.0374pt x 79.66608pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AULsin2phi_xN.pdf
+): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/Evo_AULsin2phi_xN.pdf, id=236, 361.35pt x 220.825pt>
+File: ./figs/Evo_AULsin2phi_xN.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AULsin2phi_xN.pdf>
+Package pdftex.def Info: ./figs/Evo_AULsin2phi_xN.pdf used on input line 1190.
+(pdftex.def)             Requested size: 128.0374pt x 78.24347pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AULsin2phi_xpi.pd
+f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/Evo_AULsin2phi_xpi.pdf, id=237, 361.35pt x 220.825pt>
+File: ./figs/Evo_AULsin2phi_xpi.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AULsin2phi_xpi.pdf>
+Package pdftex.def Info: ./figs/Evo_AULsin2phi_xpi.pdf used on input line 1190.
+
+(pdftex.def)             Requested size: 128.0374pt x 78.24347pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AULsin2phi_qT.pdf
+): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/Evo_AULsin2phi_qT.pdf, id=238, 361.35pt x 224.84pt>
+File: ./figs/Evo_AULsin2phi_qT.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AULsin2phi_qT.pdf>
+Package pdftex.def Info: ./figs/Evo_AULsin2phi_qT.pdf used on input line 1190.
+(pdftex.def)             Requested size: 128.0374pt x 79.66608pt.
+
+
+Package natbib Warning: Citation `Collins:2002kn' on page 13 undefined on input
+ line 1213.
+
+
+Package natbib Warning: Citation `Brodsky:2002rv' on page 13 undefined on input
+ line 1215.
+
+
+Package natbib Warning: Citation `Boer:2002ju' on page 13 undefined on input li
+ne 1215.
+
+
+Package natbib Warning: Citation `Aschenauer:2015eha' on page 13 undefined on i
+nput line 1216.
+
+
+Package natbib Warning: Citation `Adamczyk:2015gyk' on page 13 undefined on inp
+ut line 1218.
+
+
+Package natbib Warning: Citation `Anselmino:2016uie' on page 13 undefined on in
+put line 1219.
+
+
+Package natbib Warning: Citation `Collins:2002kn' on page 13 undefined on input
+ line 1220.
+
+
+Package natbib Warning: Citation `Efremov:2004tp' on page 13 undefined on input
+ line 1224.
+
+
+Package natbib Warning: Citation `Collins:2005rq' on page 13 undefined on input
+ line 1224.
+
+
+Package natbib Warning: Citation `Anselmino:2009st' on page 13 undefined on inp
+ut line 1224.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 13 undefined on inp
+ut line 1227.
+
+
+Package natbib Warning: Citation `Collins:2005rq' on page 13 undefined on input
+ line 1232.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 13 undefined on in
+put line 1241.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 13 undefined on inp
+ut line 1241.
+
+
+Package natbib Warning: Citation `Anselmino:2011gs' on page 13 undefined on inp
+ut line 1245.
+
+
+Package natbib Warning: Citation `Anselmino:2011gs' on page 13 undefined on inp
+ut line 1249.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 13 undefined on in
+put line 1249.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 13 undefined on inp
+ut line 1254.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 13 undefined on inp
+ut line 1261.
+
+[13]
+
+LaTeX Warning: Text page 14 contains only floats.
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1274 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1274 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1274 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1274 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1274 
+        <./figs/Evo_AUTsinphi_xN.pdf> <./figs/Evo_AUTsinphi_xpi.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsinphi_xpi.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figs/Evo_AUTsinphi_qT.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsinphi_qT.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./figs/Evo_AUTsin2phi_m_phiS_xN.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_m_phiS
+_xN.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./figs/Evo_AUTsin2phi_m_phiS_xpi.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_m_phiS
+_xpi.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
+> <./figs/Evo_AUTsin2phi_m_phiS_qT.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_m_phiS
+_qT.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./figs/Evo_AUTsin2phi_p_phiS_xN.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_p_phiS
+_xN.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./figs/Evo_AUTsin2phi_p_phiS_xpi.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_p_phiS
+_xpi.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
+> <./figs/Evo_AUTsin2phi_p_phiS_qT.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUTsin2phi_p_phiS
+_qT.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./figs/Evo_AUUcos2phi_xN.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUUcos2phi_xN.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figs/Evo_AUUcos2phi_xpi.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUUcos2phi_xpi.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figs/Evo_AUUcos2phi_qT.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUUcos2phi_qT.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figs/Evo_AULsin2phi_xN.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AULsin2phi_xN.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figs/Evo_AULsin2phi_xpi.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AULsin2phi_xpi.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figs/Evo_AULsin2phi_qT.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AULsin2phi_qT.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 15 undefined on inp
+ut line 1278.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 15 undefined on input 
+line 1287.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 15 undefined on input 
+line 1290.
+
+
+Package natbib Warning: Citation `Boer:1999mm' on page 15 undefined on input li
+ne 1300.
+
+
+Package natbib Warning: Citation `Guanziroli:1987rp' on page 15 undefined on in
+put line 1306.
+
+
+Package natbib Warning: Citation `Conway:1989fs' on page 15 undefined on input 
+line 1306.
+
+
+Package natbib Warning: Citation `Aghasyan:2017jop' on page 15 undefined on inp
+ut line 1310.
+
+
+Package natbib Warning: Citation `Barone:2010gk' on page 15 undefined on input 
+line 1313.
+
+
+Package natbib Warning: Citation `Collins:2002kn' on page 15 undefined on input
+ line 1315.
+
+
+Package natbib Warning: Citation `Gautheron:2010wva' on page 15 undefined on in
+put line 1319.
+
+
+Package natbib Warning: Citation `Guanziroli:1987rp' on page 15 undefined on in
+put line 1322.
+
+
+Package natbib Warning: Citation `Conway:1989fs' on page 15 undefined on input 
+line 1323.
+
+
+Package natbib Warning: Citation `Lambertsen:2016wgj' on page 15 undefined on i
+nput line 1329.
+
+
+Package natbib Warning: Citation `Chang:2018pvk' on page 15 undefined on input 
+line 1329.
+
+
+Package natbib Warning: Citation `Barone:2010gk' on page 15 undefined on input 
+line 1333.
+
+
+Package natbib Warning: Citation `Zhu:2006gx' on page 15 undefined on input lin
+e 1335.
+
+
+Package natbib Warning: Citation `Zhu:2008sj' on page 15 undefined on input lin
+e 1335.
+
+
+Package natbib Warning: Citation `Burkardt:2007xm' on page 15 undefined on inpu
+t line 1343.
+
+
+Package natbib Warning: Citation `Gamberg:2005ip' on page 15 undefined on input
+ line 1346.
+
+
+Package natbib Warning: Citation `Pobylitsa:2003ty' on page 15 undefined on inp
+ut line 1351.
+
+[15]
+
+Package natbib Warning: Citation `Sissakian:2005yp' on page 16 undefined on inp
+ut line 1358.
+
+
+Package natbib Warning: Citation `Bastami:2018xqd' on page 16 undefined on inpu
+t line 1375.
+
+
+Package natbib Warning: Citation `Savin:2015paa' on page 16 undefined on input 
+line 1381.
+
+
+Package natbib Warning: Citation `Pasquini:2008ax' on page 16 undefined on inpu
+t line 1389.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 16 undefined on inp
+ut line 1389.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 16 undefined on input
+ line 1389.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 16 undefined on input
+ line 1389.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 16 undefined on input 
+line 1389.
+
+
+Package natbib Warning: Citation `Sutton:1991ay' on page 16 undefined on input 
+line 1389.
+
+
+Package natbib Warning: Citation `Pasquini:2010af' on page 16 undefined on inpu
+t line 1391.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 16 undefined on inp
+ut line 1391.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 16 undefined on input
+ line 1391.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 16 undefined on input
+ line 1391.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 16 undefined on in
+put line 1391.
+
+
+Package natbib Warning: Citation `Sutton:1991ay' on page 16 undefined on input 
+line 1391.
+
+
+Package natbib Warning: Citation `Pasquini:2008ax' on page 16 undefined on inpu
+t line 1393.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 16 undefined on inp
+ut line 1393.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 16 undefined on input
+ line 1393.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 16 undefined on input
+ line 1393.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 16 undefined on in
+put line 1393.
+
+
+Package natbib Warning: Citation `Pasquini:2008ax' on page 16 undefined on inpu
+t line 1395.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 16 undefined on inp
+ut line 1395.
+
+
+Package natbib Warning: Citation `Jakob:1997wg' on page 16 undefined on input l
+ine 1395.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 16 undefined on input
+ line 1395.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 16 undefined on input 
+line 1395.
+
+
+Package natbib Warning: Citation `Pasquini:2010af' on page 16 undefined on inpu
+t line 1397.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 16 undefined on inp
+ut line 1397.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 16 undefined on input
+ line 1397.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 16 undefined on input
+ line 1397.
+
+
+Package natbib Warning: Citation `Barone:2009hw' on page 16 undefined on input 
+line 1398.
+
+
+Package natbib Warning: Citation `Pasquini:2008ax' on page 16 undefined on inpu
+t line 1400.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 16 undefined on inp
+ut line 1400.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 16 undefined on input
+ line 1400.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 16 undefined on input
+ line 1400.
+
+
+Package natbib Warning: Citation `Bastami:2018xqd' on page 16 undefined on inpu
+t line 1400.
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/Evo_AUUcos2phi_xpi_Sc
+aleStudy.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
+> allowed
+<./figs/Evo_AUUcos2phi_xpi_ScaleStudy.pdf, id=663, 90.3375pt x 12.045pt>
+File: ./figs/Evo_AUUcos2phi_xpi_ScaleStudy.pdf Graphic file (type pdf)
+
+<use ./figs/Evo_AUUcos2phi_xpi_ScaleStudy.pdf>
+Package pdftex.def Info: ./figs/Evo_AUUcos2phi_xpi_ScaleStudy.pdf used on input
+ line 1416.
+(pdftex.def)             Requested size: 128.0374pt x 17.07329pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{table.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1442 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1442 
+        <./figs/Evo_AUUcos2phi_xpi_ScaleStudy.pdf>]
+
+Package natbib Warning: Citation `Collins:2014jpa' on page 17 undefined on inpu
+t line 1452.
+
+
+Package natbib Warning: Citation `Jakob:1997wg' on page 17 undefined on input l
+ine 1466.
+
+
+Package natbib Warning: Citation `Pasquini:2010af' on page 17 undefined on inpu
+t line 1466.
+
+
+Package natbib Warning: Citation `Pasquini:2008ax' on page 17 undefined on inpu
+t line 1466.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 17 undefined on inp
+ut line 1466.
+
+
+Package natbib Warning: Citation `Gamberg:2007wm' on page 17 undefined on input
+ line 1466.
+
+
+Package natbib Warning: Citation `Gamberg:2009uk' on page 17 undefined on input
+ line 1466.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 17 undefined on input 
+line 1469.
+
+
+Package natbib Warning: Citation `Sutton:1991ay' on page 17 undefined on input 
+line 1469.
+
+
+Package natbib Warning: Citation `Anselmino:2011gs' on page 17 undefined on inp
+ut line 1469.
+
+
+Package natbib Warning: Citation `Anselmino:2013vqa' on page 17 undefined on in
+put line 1469.
+
+
+Package natbib Warning: Citation `Barone:2009hw' on page 17 undefined on input 
+line 1469.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 17 undefined on input 
+line 1469.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 17 undefined on in
+put line 1469.
+
+
+Package natbib Warning: Citation `Bastami:2018xqd' on page 17 undefined on inpu
+t line 1469.
+
+
+Package natbib Warning: Citation `Boffi:2009sh' on page 17 undefined on input l
+ine 1473.
+
+
+Package natbib Warning: Citation `Pasquini:2011tk' on page 17 undefined on inpu
+t line 1473.
+
+
+Package natbib Warning: Citation `Pasquini:2014ppa' on page 17 undefined on inp
+ut line 1473.
+
+
+Package natbib Warning: Citation `Martin:2009iq' on page 17 undefined on input 
+line 1477.
+
+
+Package natbib Warning: Citation `Sutton:1991ay' on page 17 undefined on input 
+line 1477.
+
+
+Package natbib Warning: Citation `Anselmino:2011gs' on page 17 undefined on inp
+ut line 1477.
+
+
+Package natbib Warning: Citation `Anselmino:2013vqa' on page 17 undefined on in
+put line 1477.
+
+
+Package natbib Warning: Citation `Barone:2009hw' on page 17 undefined on input 
+line 1477.
+
+
+Package natbib Warning: Citation `Lefky:2014eia' on page 17 undefined on input 
+line 1477.
+
+
+Package natbib Warning: Citation `Cammarota:2020qcw' on page 17 undefined on in
+put line 1477.
+
+
+Package natbib Warning: Citation `Bastami:2018xqd' on page 17 undefined on inpu
+t line 1477.
+
+
+Package natbib Warning: Citation `Collins:2005rq' on page 17 undefined on input
+ line 1522.
+
+[17]
+No file main_new.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1553.
+[18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1553.
+ (./main_new.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1553.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1553.
+
+Package rerunfilecheck Info: File `main_new.out' has not changed.
+(rerunfilecheck)             Checksum: AE255BB2664FB3D1B9AB6BE8A666F295;929.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1553.
+ ) 
+Here is how much of TeX's memory you used:
+ 15606 strings out of 493014
+ 258061 string characters out of 6133351
+ 323417 words of memory out of 5000000
+ 18838 multiletter control sequences out of 15000+600000
+ 25196 words of font info for 68 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,13n,40p,10359b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/cm-super/sfcc0900.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/cm-super/sfti1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/cm-super/sftt1000.pfb>
+Output written on main_new.pdf (18 pages, 1082884 bytes).
+PDF statistics:
+ 812 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+
